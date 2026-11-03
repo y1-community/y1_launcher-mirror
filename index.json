@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-03T15:21:26Z",
+  "generated_at": "2026-11-03T17:30:00Z",
   "source_repo": "ismileblue/y1_launcher",
   "mirror_repo": "y1-community/y1_launcher-mirror",
   "title_prefix": "Portable Flashing Package: ",
@@ -42,7 +42,1004 @@
       "layout": "beside_app"
     }
   ],
-  "releases": [],
+  "releases": [
+    {
+      "tag": "launcher-v0.11.6hotfix4",
+      "title": "Portable Flashing Package: JJ Launcher ROM v0.11.6hotfix4",
+      "source_title": "JJ Launcher ROM v0.11.6hotfix4",
+      "source_url": "https://github.com/ismileblue/y1_launcher/releases/tag/launcher-v0.11.6hotfix4",
+      "published_at": "2026-09-02T14:37:17Z",
+      "prerelease": false,
+      "source_notes": "",
+      "assets": [
+        {
+          "name": "rom-windows.zip",
+          "source_asset": "rom.zip",
+          "platform": "windows",
+          "size": 692560449,
+          "sha256": "da1dc2b75b111ff1f9fd49b9f8a174e6cd537efc0cd73d21dd3698405ee3112f",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6hotfix4/rom-windows.zip"
+        },
+        {
+          "name": "rom-linux.zip",
+          "source_asset": "rom.zip",
+          "platform": "linux",
+          "size": 843871168,
+          "sha256": "cbfc226777c3057f062c182ad47139778bbe0e25a2674ae349bbe9349f59602f",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6hotfix4/rom-linux.zip"
+        },
+        {
+          "name": "rom-macos.zip",
+          "source_asset": "rom.zip",
+          "platform": "macos",
+          "size": 643775854,
+          "sha256": "08d6e313283a91fc255d0afdf427b84c1ad41aae7a18f7d756611a18eb638c4e",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6hotfix4/rom-macos.zip"
+        },
+        {
+          "name": "rom_type_b-windows.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "windows",
+          "size": 636061878,
+          "sha256": "552a6cfa3dc721663cdbfec5b9528ba9ee884f046d3b11fee94ac88d50102b14",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6hotfix4/rom_type_b-windows.zip"
+        },
+        {
+          "name": "rom_type_b-linux.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "linux",
+          "size": 787372597,
+          "sha256": "3fde2681cfd0e89f71e5c14ea211afeebffcc84c33324b98f962dfbf4263ffa1",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6hotfix4/rom_type_b-linux.zip"
+        },
+        {
+          "name": "rom_type_b-macos.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "macos",
+          "size": 587277292,
+          "sha256": "6dbd0a4c94808af40c32b55e3885681cbe1c867c660b735cfb5e88dc7c540df5",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6hotfix4/rom_type_b-macos.zip"
+        },
+        {
+          "name": "rom_y2-windows.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "windows",
+          "size": 615336200,
+          "sha256": "723e30eed36b5b6837239d1617ac0eddf4f7fe40afde4c970b49b6fe89c465f4",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6hotfix4/rom_y2-windows.zip"
+        },
+        {
+          "name": "rom_y2-linux.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "linux",
+          "size": 791251294,
+          "sha256": "bef80a6644afeed91bc76a70296e5e40ff8b8646fcf378b14a1d0872beb71e41",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6hotfix4/rom_y2-linux.zip"
+        },
+        {
+          "name": "rom_y2-macos.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "macos",
+          "size": 630946914,
+          "sha256": "f96f9961f43dacd6dd35d30154a13fda1fcc1dd771b71d5185c9626863f5b83d",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6hotfix4/rom_y2-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "rom.zip",
+        "rom_type_b.zip",
+        "rom_y2.zip"
+      ],
+      "stats_url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6hotfix4/stats.txt"
+    },
+    {
+      "tag": "launcher-v0.11.6",
+      "title": "Portable Flashing Package: JJ Launcher ROM v0.11.6",
+      "source_title": "JJ Launcher ROM v0.11.6",
+      "source_url": "https://github.com/ismileblue/y1_launcher/releases/tag/launcher-v0.11.6",
+      "published_at": "2026-08-18T11:31:05Z",
+      "prerelease": false,
+      "source_notes": "\r\n---\r\n\r\n### \ud83d\ude80 JJ Launcher v0.11.6 Release Notes\r\n\r\n**Important Notice on FLAC Playback**\r\n\r\n* Due to stability issues with the previous downsampling engine, we have reverted to the legacy downsampling engine. Please note that this down-sampling engine downgrade may cause potential side effects or issues with FLAC playback.\r\n\r\n---\r\n\r\n### \ud83c\udf1f Key Updates & Improvements\r\n\r\n* **Audio Engine Downgrade:** Reverted the FLAC downsampling engine to the legacy version for better stability.\r\n* **Opus Album Art Fix:** Fixed an issue where album art for Opus audio files was not displaying properly.\r\n* **Player UI Enhancements:** Added playback speed control, a close button, and a sleep timer function directly to the music player screen.\r\n* **Video Player:** Added a continuous video playback feature.\r\n* **Library UI:** Resized album art thumbnails in the library view for better layout balance.\r\n* **Podcast Engine Overhaul:** Significantly improved podcast streaming and channel loading performance. Special thanks to **ArcSmurf** for the amazing contribution!\r\n* **Language Bug Fix:** Resolved a bug where language settings would randomly reset.\r\n\r\n---\r\n\r\n### \ud83c\udfb5 Last.fm Scrobbling Support & API Announcement\r\n\r\n* **Last.fm Scrobbling Integrated:** You can now scrobble your tracks to Last.fm!\r\n* **Commercial API Access Granted:** Thanks to the support of the Last.fm team, we have been granted **1 year of free commercial API access**.\r\n* **Seamless Login:** Pro users can now use Last.fm scrobbling using only their account credentials (no separate API key required!). Simply launch the web server and log in.\r\n* **Support the Project:** To keep Last.fm integration and other features running continuously in the future, your donations and support are always greatly appreciated!",
+      "assets": [
+        {
+          "name": "rom-windows.zip",
+          "source_asset": "rom.zip",
+          "platform": "windows",
+          "size": 692558117,
+          "sha256": "a411679859bdac45c1f421d8e3fd4833f2eadd10fac3773ed54f893b7a6c608b",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6/rom-windows.zip"
+        },
+        {
+          "name": "rom-linux.zip",
+          "source_asset": "rom.zip",
+          "platform": "linux",
+          "size": 843868836,
+          "sha256": "23d5b9dc15c63c13ba57c8966510312db856a14d460beab2508163b7ffcb7050",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6/rom-linux.zip"
+        },
+        {
+          "name": "rom-macos.zip",
+          "source_asset": "rom.zip",
+          "platform": "macos",
+          "size": 643773523,
+          "sha256": "4deeb593109b8a201ec75804cbea8479b9129a86e00ffc61b5f15a6c99b5b829",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6/rom-macos.zip"
+        },
+        {
+          "name": "rom_type_b-windows.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "windows",
+          "size": 636071206,
+          "sha256": "dd637eec1bd1105d87f51f33464dbc5a8f9442a85d4d55754c97547917310ce5",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6/rom_type_b-windows.zip"
+        },
+        {
+          "name": "rom_type_b-linux.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "linux",
+          "size": 787381925,
+          "sha256": "c821b8d9a51cc1bc60ee1953ed823f0ee0345369846d9ba61f0ccb3553059402",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6/rom_type_b-linux.zip"
+        },
+        {
+          "name": "rom_type_b-macos.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "macos",
+          "size": 587286618,
+          "sha256": "78b44413825d3e635425326e72d12807763ab87564af7f4aa4f3cd87985d44a1",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6/rom_type_b-macos.zip"
+        },
+        {
+          "name": "rom_y2-windows.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "windows",
+          "size": 615319894,
+          "sha256": "0a5d3796e97b71f0ac5da770d5c3d1fcbe11216ec49d7c9ececf0b40d3eaea94",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6/rom_y2-windows.zip"
+        },
+        {
+          "name": "rom_y2-linux.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "linux",
+          "size": 791234988,
+          "sha256": "b861e00807ce26262ee24f0c734ec0347e91beb76d745d8814dc0af4a98f18fb",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6/rom_y2-linux.zip"
+        },
+        {
+          "name": "rom_y2-macos.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "macos",
+          "size": 630930609,
+          "sha256": "471ec05772344ef878607f2d4051267777ccabe360d8686dbd88f43cf0b965d6",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6/rom_y2-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "rom.zip",
+        "rom_type_b.zip",
+        "rom_y2.zip"
+      ],
+      "stats_url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6/stats.txt"
+    },
+    {
+      "tag": "launcher-v0.11.5",
+      "title": "Portable Flashing Package: JJ Launcher ROM v0.11.5",
+      "source_title": "JJ Launcher ROM v0.11.5",
+      "source_url": "https://github.com/ismileblue/y1_launcher/releases/tag/launcher-v0.11.5",
+      "published_at": "2026-08-08T13:26:02Z",
+      "prerelease": false,
+      "source_notes": "Fixed an issue where FLAC files would not play in v0.11.4.",
+      "assets": [
+        {
+          "name": "rom-windows.zip",
+          "source_asset": "rom.zip",
+          "platform": "windows",
+          "size": 692560369,
+          "sha256": "7d67901b929425b9c059b34ef2ff42978a1237aa311715125809417613ed4fac",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.5/rom-windows.zip"
+        },
+        {
+          "name": "rom-linux.zip",
+          "source_asset": "rom.zip",
+          "platform": "linux",
+          "size": 843871088,
+          "sha256": "b8ab488c4fa8486e7cf1c2fbd2e2e533c0716eb13f249e5708f7ef18ca7c3147",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.5/rom-linux.zip"
+        },
+        {
+          "name": "rom-macos.zip",
+          "source_asset": "rom.zip",
+          "platform": "macos",
+          "size": 643775775,
+          "sha256": "96e9dd556e8bb89af76cb0820c3a56567c4af79e204e686c125a6197f36a2032",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.5/rom-macos.zip"
+        },
+        {
+          "name": "rom_type_b-windows.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "windows",
+          "size": 636062421,
+          "sha256": "8462518422c1d36ea6f7a32c3533f8593b0c3e8799dae19b80b3db6378eae97e",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.5/rom_type_b-windows.zip"
+        },
+        {
+          "name": "rom_type_b-linux.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "linux",
+          "size": 787373140,
+          "sha256": "8964364a45e5a48ccd531c922117d293b4d86ceb43650c95cb9d7adc263cf966",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.5/rom_type_b-linux.zip"
+        },
+        {
+          "name": "rom_type_b-macos.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "macos",
+          "size": 587277832,
+          "sha256": "30b3bb9f45f5de74f42d785f1d9d299d7f3038ac5b1852aecc61a076a118fee9",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.5/rom_type_b-macos.zip"
+        },
+        {
+          "name": "rom_y2-windows.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "windows",
+          "size": 615319988,
+          "sha256": "deaf0d488615ebe8d7b22ebab8bcc446eaa71c60ad6e1aa4ce7f5dcfc202eeb3",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.5/rom_y2-windows.zip"
+        },
+        {
+          "name": "rom_y2-linux.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "linux",
+          "size": 791235082,
+          "sha256": "ed93cb652460b9d02d130f764e3aad1ee5c1b75596a525f72420e906d765b094",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.5/rom_y2-linux.zip"
+        },
+        {
+          "name": "rom_y2-macos.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "macos",
+          "size": 630930703,
+          "sha256": "1c6c4fd0e021f2c12987af01c603111abc75a1dc03758c8288ce0f9186ce94e3",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.5/rom_y2-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "rom.zip",
+        "rom_type_b.zip",
+        "rom_y2.zip"
+      ],
+      "stats_url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.5/stats.txt"
+    },
+    {
+      "tag": "launcher-v0.10.1",
+      "title": "Portable Flashing Package: JJ Launcher ROM v0.10.1",
+      "source_title": "JJ Launcher ROM v0.10.1",
+      "source_url": "https://github.com/ismileblue/y1_launcher/releases/tag/launcher-v0.10.1",
+      "published_at": "2026-08-01T12:31:37Z",
+      "prerelease": false,
+      "source_notes": "This patch fixes the error that could occur during the update process. Please update to this version to ensure a smooth installation.",
+      "assets": [
+        {
+          "name": "rom-windows.zip",
+          "source_asset": "rom.zip",
+          "platform": "windows",
+          "size": 693826020,
+          "sha256": "57dbf52aeacaa5ea10919335a79b264043d8bebd9297cf58508b4c455cfebb40",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.10.1/rom-windows.zip"
+        },
+        {
+          "name": "rom-linux.zip",
+          "source_asset": "rom.zip",
+          "platform": "linux",
+          "size": 845136739,
+          "sha256": "18b25dc97f0d7a832d11819abd2578f81a94ae5cd28d691fa76f575370416a4c",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.10.1/rom-linux.zip"
+        },
+        {
+          "name": "rom-macos.zip",
+          "source_asset": "rom.zip",
+          "platform": "macos",
+          "size": 645041427,
+          "sha256": "813ad67b6f78f426694eb830f9259f5440f92c4fc0360b761535e4b1acf70d83",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.10.1/rom-macos.zip"
+        },
+        {
+          "name": "rom_type_b-windows.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "windows",
+          "size": 635780772,
+          "sha256": "8bcbc3db988ab4323a5714946c7175e4464e432e70dda31e9c69ed159c5ed37a",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.10.1/rom_type_b-windows.zip"
+        },
+        {
+          "name": "rom_type_b-linux.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "linux",
+          "size": 787091491,
+          "sha256": "ffc4c1ecdfba0c305e630e18531400fa2a19e18a8670cb15b290ecdb4cd2dd2a",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.10.1/rom_type_b-linux.zip"
+        },
+        {
+          "name": "rom_type_b-macos.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "macos",
+          "size": 586996184,
+          "sha256": "86ec3e55d08aa686608c1128ee1535f76cdc0bdae6f6767f412d113e2b94900d",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.10.1/rom_type_b-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "rom.zip",
+        "rom_type_b.zip"
+      ],
+      "stats_url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.10.1/stats.txt"
+    },
+    {
+      "tag": "launcher-v0.6",
+      "title": "Portable Flashing Package: JJ Launcher ROM v0.6",
+      "source_title": "JJ Launcher ROM v0.6",
+      "source_url": "https://github.com/ismileblue/y1_launcher/releases/tag/launcher-v0.6",
+      "published_at": "2026-08-01T12:31:21Z",
+      "prerelease": false,
+      "source_notes": "## \ud83d\ude80 Installation & Update Guide\r\n\r\nYou can easily install the launcher using the **Innioasis Updater**.\r\n\ud83d\udc49 [Download Innioasis Updater](https://www.innioasis.com/pages/download)\r\n\r\n<img width=\"1214\" height=\"612\" alt=\"Installation Screenshot\" src=\"https://github.com/user-attachments/assets/95e9e82a-7b2a-48ee-a75b-6f055a77db07\" />\r\n\r\n---\r\n\r\n## \ud83c\udd95 What's New in v0.6\r\n\r\n### 1. Added Launcher OTA Update Feature\r\n* You can now download and apply updates directly within the launcher without having to manually reinstall the APK file.\r\n\r\n<img width=\"480\" height=\"360\" alt=\"Update Feature Screenshot\" src=\"https://github.com/user-attachments/assets/b34f1026-da50-45f8-a99a-bf83e358bb1f\" />\r\n\r\n### 2. Status Bar Enhancement\r\n* Added a playback status icon to the status bar.\r\n\r\n### 3. Bug Fixes\r\n* Fixed minor bugs and improved overall stability.\r\n\r\n---\r\n\r\n## \ud83c\udfa7 Bluetooth Connection & Pairing\r\n\r\nBluetooth headphone connection testing has been successfully completed, and it works perfectly!\r\n\r\n<img width=\"480\" height=\"360\" alt=\"Bluetooth Pairing Screenshot\" src=\"https://github.com/user-attachments/assets/73d0cec4-ddeb-406d-916d-0cdcb788533a\" />\r\n\r\n> [!CAUTION]\r\n> **\u26a0\ufe0f Important Security Permission Note**\r\n> If you encounter a security-related error message when trying to connect after pairing, you must grant the secure settings permission via ADB by running the following script:\r\n\r\n```bash\r\nadb shell pm grant com.themoon.y1 android.permission.WRITE_SECURE_SETTINGS",
+      "assets": [
+        {
+          "name": "rom-windows.zip",
+          "source_asset": "rom.zip",
+          "platform": "windows",
+          "size": 692858825,
+          "sha256": "00e638c6bb48e27d5af95ed1dd0765632ddecca78f2cce8118db2823060675e6",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.6/rom-windows.zip"
+        },
+        {
+          "name": "rom-linux.zip",
+          "source_asset": "rom.zip",
+          "platform": "linux",
+          "size": 844169544,
+          "sha256": "391ea7896e4441f8247f7c814a2f51551f62cbbea29f8b25a445a2c385ea6e04",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.6/rom-linux.zip"
+        },
+        {
+          "name": "rom-macos.zip",
+          "source_asset": "rom.zip",
+          "platform": "macos",
+          "size": 644074232,
+          "sha256": "fa0a600d0656cbc2465f41e1986c3233006406d70fbc15d47594b2638344467b",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.6/rom-macos.zip"
+        },
+        {
+          "name": "rom_type_b-windows.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "windows",
+          "size": 635966238,
+          "sha256": "826f1f4d6e711acf277f100fdaf2688d003a89c855bd61f316c79626a48893ed",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.6/rom_type_b-windows.zip"
+        },
+        {
+          "name": "rom_type_b-linux.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "linux",
+          "size": 787276957,
+          "sha256": "2e5aa4faee93dd8d9430386bb9cf11611ef18d46e6d42eac39ffef248a237733",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.6/rom_type_b-linux.zip"
+        },
+        {
+          "name": "rom_type_b-macos.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "macos",
+          "size": 587181650,
+          "sha256": "622c5628fb7d7428cfc9567e51d9dd810ed491bfe1041df4f2c7933ef2c0f718",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.6/rom_type_b-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "rom.zip",
+        "rom_type_b.zip"
+      ],
+      "stats_url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.6/stats.txt"
+    },
+    {
+      "tag": "launcher-v0.9",
+      "title": "Portable Flashing Package: JJ Launcher ROM v0.9",
+      "source_title": "JJ Launcher ROM v0.9",
+      "source_url": "https://github.com/ismileblue/y1_launcher/releases/tag/launcher-v0.9",
+      "published_at": "2026-08-01T12:31:18Z",
+      "prerelease": false,
+      "source_notes": "\r\n<img width=\"480\" height=\"360\" alt=\"Screenshot_20260627_215531\" src=\"https://github.com/user-attachments/assets/5aacc91f-efb6-4a71-acb2-01a4c241bafc\" />\r\n<img width=\"480\" height=\"360\" alt=\"Screenshot_20260627_215549\" src=\"https://github.com/user-attachments/assets/796379c0-afc7-4d52-9ef5-e1acfe03bccf\" />\r\n<img width=\"480\" height=\"360\" alt=\"Screenshot_20260627_215624\" src=\"https://github.com/user-attachments/assets/7f8fb8e6-0cfd-4825-87fd-cac41e1ac03a\" />\r\n\r\n## \ud83d\ude80 What's New in v0.9\r\n\r\n### \u2728 New Features & Improvements\r\n\r\n* **Added User Equalizer (EQ), Bass Boost, and Spatial Audio Engine**\r\n  * Customize your sound with the new custom EQ settings, enhanced bass boost, and an immersive spatial audio engine.\r\n* **Full Playlist File Support**\r\n  * You can now easily create, delete, and manage your playlist files directly within the app.\r\n* **File Information Display**\r\n  * Added the ability to view detailed file and track information directly on the player screen.\r\n* **Bug Fixes**\r\n  * Fixed various minor bugs and improved overall system stability.\r\n* **Thanks**\r\n  * MO-ON company",
+      "assets": [
+        {
+          "name": "rom-windows.zip",
+          "source_asset": "rom.zip",
+          "platform": "windows",
+          "size": 692880182,
+          "sha256": "37bb44a753368482407530d2210a31d91f81c63ca0bbb0b0885ee895bbc42bc2",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.9/rom-windows.zip"
+        },
+        {
+          "name": "rom-linux.zip",
+          "source_asset": "rom.zip",
+          "platform": "linux",
+          "size": 844190901,
+          "sha256": "31d596998df68e80dd3f177936dbf5e00c7a35bcb9460a40c8eb87ac2f6dce86",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.9/rom-linux.zip"
+        },
+        {
+          "name": "rom-macos.zip",
+          "source_asset": "rom.zip",
+          "platform": "macos",
+          "size": 644095589,
+          "sha256": "0960058ed6c05f95e65ce4f5473061159e4acb8963aa510df7909aee2a98d990",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.9/rom-macos.zip"
+        },
+        {
+          "name": "rom_type_b-windows.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "windows",
+          "size": 635807715,
+          "sha256": "4c448ac4443cea1bc710f76c6e6b14c986b98e82dab613025ee2657652b21ec8",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.9/rom_type_b-windows.zip"
+        },
+        {
+          "name": "rom_type_b-linux.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "linux",
+          "size": 787118434,
+          "sha256": "e58dc23c9235c681a46c004a6095b4fe88bcef86e04e658a900a871c49e7798d",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.9/rom_type_b-linux.zip"
+        },
+        {
+          "name": "rom_type_b-macos.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "macos",
+          "size": 587023127,
+          "sha256": "bd75d27858eac514c9557b75067b9018309e455d92841af73e705f43dea22784",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.9/rom_type_b-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "rom.zip",
+        "rom_type_b.zip"
+      ],
+      "stats_url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.9/stats.txt"
+    },
+    {
+      "tag": "launcher-v0.3",
+      "title": "Portable Flashing Package: JJ Launcher ROM v0.3",
+      "source_title": "JJ Launcher ROM v0.3",
+      "source_url": "https://github.com/ismileblue/y1_launcher/releases/tag/launcher-v0.3",
+      "published_at": "2026-08-01T12:31:17Z",
+      "prerelease": false,
+      "source_notes": "1. \ud14c\ub9c8\ud30c\uc77c \uc801\uc6a9(/storage/sdcard0/Y1_Themes/ \ud3f4\ub354\uc5d0 \uc6d0\ud558\ub294 \ud14c\ub9c8 \ud30c\uc77c(.json)\uc744 \ub123\uace0 \uc124\uc815)\r\n2. \ud654\uba74\uc774 \ucee4\uc9c4 \uc0c1\ud0dc\uc5d0\uc11c \uace1\ubcc0\uacbd \uae30\ub2a5 \ucd94\uac00\r\n3. \uc154\ud50c \uc7ac\uc0dd \uc54c\uace0\ub9ac\uc998 \uc218\uc815/\uc544\uc774\ucf58 \uad50\uccb4\r\n4. \uae30\ud0c0 \ubc84\uadf8 \uc218\uc815",
+      "assets": [
+        {
+          "name": "rom-windows.zip",
+          "source_asset": "rom.zip",
+          "platform": "windows",
+          "size": 692861695,
+          "sha256": "91d7dd9b504aeb69752950a0f55ec6e3c81a4dd1265d2f350a37718f47f4447e",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.3/rom-windows.zip"
+        },
+        {
+          "name": "rom-linux.zip",
+          "source_asset": "rom.zip",
+          "platform": "linux",
+          "size": 844172414,
+          "sha256": "d8f91d28cd2d3c461aa78c5b25f4e79c4ac18d967f06c521ef3b6653b81a532e",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.3/rom-linux.zip"
+        },
+        {
+          "name": "rom-macos.zip",
+          "source_asset": "rom.zip",
+          "platform": "macos",
+          "size": 644077101,
+          "sha256": "09392f43ea69f44cc603a79614c20aba0b8afc6ca46436d2aba28804a530e956",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.3/rom-macos.zip"
+        },
+        {
+          "name": "rom_type_b-windows.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "windows",
+          "size": 635952107,
+          "sha256": "ba47bc77ac5b88df328acf1210b7493eb4827938686daec0ed129a49c7f6fdb6",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.3/rom_type_b-windows.zip"
+        },
+        {
+          "name": "rom_type_b-linux.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "linux",
+          "size": 787262826,
+          "sha256": "5d33f56e880d4f65c74fde2a19cbc7cb6c428d40688c66a72167fc973b973c36",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.3/rom_type_b-linux.zip"
+        },
+        {
+          "name": "rom_type_b-macos.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "macos",
+          "size": 587167518,
+          "sha256": "cacbd2a33a54264f8b154f944a8c69a734b978530fbb28901d82c3c31dc9f4a3",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.3/rom_type_b-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "rom.zip",
+        "rom_type_b.zip"
+      ],
+      "stats_url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.3/stats.txt"
+    },
+    {
+      "tag": "launcher-v0.8",
+      "title": "Portable Flashing Package: JJ Launcher ROM v0.8",
+      "source_title": "JJ Launcher ROM v0.8",
+      "source_url": "https://github.com/ismileblue/y1_launcher/releases/tag/launcher-v0.8",
+      "published_at": "2026-08-01T12:31:12Z",
+      "prerelease": false,
+      "source_notes": "## \ud83d\ude80 What's New in v0.8\r\n\r\n### \ud83c\udfa8 1. New Theme Engine Implemented\r\n* A brand-new theme engine has been added to the launcher!\r\n* You can easily design and customize your own themes using the web editor below:\r\n  \ud83d\udc49 [Go to Theme Editor](https://theme-editor-gules.vercel.app/)\r\n\r\n### \ud83d\udd24 2. Fixed Case-Insensitive Song Sorting Bug\r\n* Fixed an issue where uppercase and lowercase song titles were not sorting properly in alphabetical order.\r\n  *(Special thanks to **Whimsical_Sandwich** for reporting this issue!)*\r\n\r\n### \ud83d\udda5\ufe0f 3. Server Connection Page UI Redesign\r\n* Overhauled and improved the User Interface (UI) for the server connection page for a cleaner look.\r\n\r\n### \ud83d\udcc2 4. Added Folder Playback Feature\r\n* You can now browse and play your music files directly by folder structure.\r\n\r\n### \u2764\ufe0f 5. Added Favorites Feature\r\n* Added a bookmarking function so you can easily save and access your favorite songs.\r\n\r\n### \ud83d\udd04 6. Added Rockbox Booting Feature\r\n* Added the ability to boot directly into Rockbox from the launcher.\r\n\r\n> [!WARNING]\r\n> **\u26a0\ufe0f Important Notice regarding Rockbox Booting**\r\n> Please note that **an additional script is required** if you want to safely return to the launcher from Rockbox.",
+      "assets": [
+        {
+          "name": "rom-windows.zip",
+          "source_asset": "rom.zip",
+          "platform": "windows",
+          "size": 692881307,
+          "sha256": "851b12c5244f1f1a3bcd1be6970fa10911d6434a3345687b424c1a6053c4d5d1",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.8/rom-windows.zip"
+        },
+        {
+          "name": "rom-linux.zip",
+          "source_asset": "rom.zip",
+          "platform": "linux",
+          "size": 844192026,
+          "sha256": "ec22ae110bc4c0b577f65af5c088ec2208df8e1f3ab5b7170d11a3f6caa58d92",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.8/rom-linux.zip"
+        },
+        {
+          "name": "rom-macos.zip",
+          "source_asset": "rom.zip",
+          "platform": "macos",
+          "size": 644096714,
+          "sha256": "f41b2078297ed331533dfc1e6a1072c459f2f9b9dfcb1abaac68457882a89f76",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.8/rom-macos.zip"
+        },
+        {
+          "name": "rom_type_b-windows.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "windows",
+          "size": 635824297,
+          "sha256": "7f28fa4a7038d93c19d70ae4e256c8eaf5be2dcb085397ee9930bd499e52177c",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.8/rom_type_b-windows.zip"
+        },
+        {
+          "name": "rom_type_b-linux.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "linux",
+          "size": 787135016,
+          "sha256": "3f1a2686c13d6b8309e4542b578def874ba087d60f842415acead73b7fd8deed",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.8/rom_type_b-linux.zip"
+        },
+        {
+          "name": "rom_type_b-macos.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "macos",
+          "size": 587039709,
+          "sha256": "c40a0ba9a77179a46292abb0a23d3383ca0d02460c4bfe890338adb02c8fbffe",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.8/rom_type_b-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "rom.zip",
+        "rom_type_b.zip"
+      ],
+      "stats_url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.8/stats.txt"
+    },
+    {
+      "tag": "launcher-v0.11",
+      "title": "Portable Flashing Package: JJ Launcher ROM v0.11",
+      "source_title": "JJ Launcher ROM v0.11",
+      "source_url": "https://github.com/ismileblue/y1_launcher/releases/tag/launcher-v0.11",
+      "published_at": "2026-08-01T12:30:45Z",
+      "prerelease": false,
+      "source_notes": "### \ud83d\ude80 [Update] JJ Launcher v0.11 Release Notes\r\n\r\nHi everyone!\r\n\r\nThanks to your amazing support and numerous feedback/feature requests, the v0.11 update is finally ready! I am incredibly grateful to everyone who has shown interest and helped test the app.\r\n\r\nSince many major features have been refactored and added in this version, there might be some unexpected bugs even in areas that used to work fine. Please let me know if you run into any issues, and I will get them patched as soon as possible!\r\n\r\nHere is what\u2019s new in v0.11:\r\n\r\n* **New Audio Engine:** Switched the encoder setup to an **ExoPlayer + FFmpeg** combination.\r\n* **Lossless Audio Support:** The launcher can now play high-res lossless FLAC and ALAC files that previously wouldn't play.\r\n* **Hi-Res Metadata:** High-quality audio metadata is now read and displayed correctly.\r\n* **10-Band EQ:** A brand new **10-band Equalizer** has been implemented.\r\n* **Podcast Support:** You can now search for and download podcasts directly using the **iTunes API**.\r\n* **Crossfeed:** Added a crossfeed function for a better headphone listening experience.\r\n* **Playlist Improvements:** Adding and deleting playlists now works perfectly. *(To trigger, long-press the center button on any song in the list)*.\r\n* **Quick Alphabet Search:** Added an alphabetical search feature in the song list. *(To trigger, long-press the Play/Pause button at the bottom of the list)*.\r\n* **Audiobook Support:** Added support for **.m4b** files, including **Chapter navigation**.\r\n* **Album Track Sorting Bug:** Fixed the issue where albums were not sorting by track number.\r\n* **Playlist Shuffle Bug:** Fixed the bug where shuffling playlists wouldn't work.\r\n* **UI Improvements:** Switched several default Android dialogs/popups to modern **Material Design** popups.\r\n* **PC Upload/Download:** Added a download feature to the existing PC upload functionality.\r\n* **Recently Added:** Added a \"Recently Added Songs\" list.\r\n* **Faster Scanning:** Added a duplicate-scanning prevention engine to make library scans significantly faster.\r\n\r\nAs always, with so many changes under the hood, there might be some unexpected bugs. Please report any issues you find, and I\u2019ll get them fixed in the next update.\r\n\r\nThank you so much for your continued interest and support! Enjoy v0.11! \ud83d\ude4f\ud83d\ude80",
+      "assets": [
+        {
+          "name": "rom-windows.zip",
+          "source_asset": "rom.zip",
+          "platform": "windows",
+          "size": 693360683,
+          "sha256": "73223637484bd7ee2090498bb3681cbef5c669af4c4206221f32d3b1e3635b33",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11/rom-windows.zip"
+        },
+        {
+          "name": "rom-linux.zip",
+          "source_asset": "rom.zip",
+          "platform": "linux",
+          "size": 844671402,
+          "sha256": "a32041fc64e18539911d84cc5d32ef1557ac3084385ece3132f96f2606221665",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11/rom-linux.zip"
+        },
+        {
+          "name": "rom-macos.zip",
+          "source_asset": "rom.zip",
+          "platform": "macos",
+          "size": 644576090,
+          "sha256": "ea85efb2ad069dad439bcb2c16472d7aeb53fd84ca51505d5a8152187ab3b2b6",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11/rom-macos.zip"
+        },
+        {
+          "name": "rom_type_b-windows.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "windows",
+          "size": 640825527,
+          "sha256": "4d929a1c9a43d6dd2376607ec537687fd1f7c62c3eea44dbb9ba6552e48bb711",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11/rom_type_b-windows.zip"
+        },
+        {
+          "name": "rom_type_b-linux.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "linux",
+          "size": 792136246,
+          "sha256": "baa23c5ad1583873cb2f964a3f04cc7ce8fec4633b328640809b8eda51d60877",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11/rom_type_b-linux.zip"
+        },
+        {
+          "name": "rom_type_b-macos.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "macos",
+          "size": 592040939,
+          "sha256": "719cfcf3734fb0462866fc890ace0fd5661f20f61efb4b6b80a91ce73c45b42e",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11/rom_type_b-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "rom.zip",
+        "rom_type_b.zip"
+      ],
+      "stats_url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11/stats.txt"
+    },
+    {
+      "tag": "launcher-v0.5",
+      "title": "Portable Flashing Package: JJ Launcher ROM v0.5",
+      "source_title": "JJ Launcher ROM v0.5",
+      "source_url": "https://github.com/ismileblue/y1_launcher/releases/tag/launcher-v0.5",
+      "published_at": "2026-08-01T12:30:28Z",
+      "prerelease": false,
+      "source_notes": "> [!WARNING]\r\n> <span style=\"color:#d9381e; font-weight:bold;\">\u26a0\ufe0f IMPORTANT: This has only been tested on System Software version 2.1.9. It is highly recommended to check your own firmware version before proceeding with the installation.</span>\r\n\r\n1. \uce7c\ub77c \ud14c\ub9c8\uae30\ub2a5 \uc801\uc6a9\r\n2. \uc704\uc82f\uae30\ub2a5 \ucd94\uac00\r\n3. \ud30c\uc77c \ud0d0\uc0c9\uae30 \uc2dc\uac01\ud654 \uc624\ub958\uc218\uc815(\ub178\ub798 \ud30c\uc77c\uc774 \ub9ce\uc544\uc9c0\uba74 \ub290\ub824\uc9c0\ub294 \ubc84\uadf8 \uc218\uc815)\r\n4. \ub77c\ub514\uc624 \ubc84\ud2bc \uc81c\uac70\r\n5. \ubc30\ud130\ub9ac \ud45c\uc2dc \uc544\uc774\ucf58\uc73c\ub85c \ubcc0\uacbd\r\n6. \uc640\uc774\ud30c\uc774\ub97c \ud1b5\ud55c \uc568\ubc94 \uc790\ub3d9 \ub2e4\uc6b4\ub85c\ub4dc\r\n7. \ucd5c\uc801\ud654 \ubc0f \ubc84\uadf8 \uc218\uc815\r\n-------------------------------------\r\n1. Added color themes\r\n2. Added widget support\r\n3. Fixed visual rendering issues in File Explorer (Resolved slowdowns when loading a large number of songs)\r\n4. Removed radio buttons\r\n5. Replaced battery indicator with an icon\r\n6. Auto-Download Album Art via Wi-Fi\r\n8. Optimized performance and fixed bugs",
+      "assets": [
+        {
+          "name": "rom-windows.zip",
+          "source_asset": "rom.zip",
+          "platform": "windows",
+          "size": 692878068,
+          "sha256": "a61f456c8c782b508804c38d08824b44b5c6c0a3644609a3b87e44ad45a1dc0b",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.5/rom-windows.zip"
+        },
+        {
+          "name": "rom-linux.zip",
+          "source_asset": "rom.zip",
+          "platform": "linux",
+          "size": 844188787,
+          "sha256": "f88d57c3366831d9dc1e958a6ffbe2acc743f1303ace1eeb2522871554aeaca1",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.5/rom-linux.zip"
+        },
+        {
+          "name": "rom-macos.zip",
+          "source_asset": "rom.zip",
+          "platform": "macos",
+          "size": 644093475,
+          "sha256": "4358d7fe4aca8713371883c315ee5331ca3c85ca5ef0e72aafe09d7782b58075",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.5/rom-macos.zip"
+        },
+        {
+          "name": "rom_type_b-windows.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "windows",
+          "size": 635954009,
+          "sha256": "afd8583a78a8f5840bba4dcd277cc68742da6befc4b4d9a73b7f1141b0c8e2f0",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.5/rom_type_b-windows.zip"
+        },
+        {
+          "name": "rom_type_b-linux.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "linux",
+          "size": 787264728,
+          "sha256": "f92a64b0f66c1a8bb815a70b322968183bf21347cdd6dcaee9664bab7845c73c",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.5/rom_type_b-linux.zip"
+        },
+        {
+          "name": "rom_type_b-macos.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "macos",
+          "size": 587169421,
+          "sha256": "d3554080b81f3be4010a466b3f9bf3b5cb43a5a7c121d859e6b2d6f878c1ff8c",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.5/rom_type_b-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "rom.zip",
+        "rom_type_b.zip"
+      ],
+      "stats_url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.5/stats.txt"
+    },
+    {
+      "tag": "launcher-v0.11.4",
+      "title": "Portable Flashing Package: JJ Launcher ROM v0.11.4",
+      "source_title": "JJ Launcher ROM v0.11.4",
+      "source_url": "https://github.com/ismileblue/y1_launcher/releases/tag/launcher-v0.11.4",
+      "published_at": "2026-08-01T12:30:09Z",
+      "prerelease": false,
+      "source_notes": "\r\nHere is what\u2019s new in this release:\r\n\r\n### \ud83c\udfb5 Audio & Media Upgrades\r\n\r\n* **Faster Lossless Playback:** Replaced the downsampling engine, so lossless audio files now start playing much faster!\r\n* **Improved Library Hierarchy:** Browsing structure is now updated to `Album Artist` > `Album` > `Track`.\r\n* **Cover Flow Stability:** Cover Flow is now sorted by artist name and operates much more stably.\r\n* **Radio Sleep Fix:** Fixed the annoying bug where FM radio sound would cut off when the screen turned off.\r\n* **Smarter File Scanning:** Optimized the media scan method for better performance.\r\n* **Podcast Episode Deletion:** You can now delete episodes directly within the Podcast menu.\r\n* **Video Playback Resume & Skip:** Added \"Resume from last played position\" and skip options for video playback.\r\n\r\n### \ud83c\udfa8 UI & Customization\r\n\r\n* **Player Screen Customization:** You can now fully apply custom themes to the main Player screen via the Theme Editor!\r\n* **Improved Text Visibility:** Adjusted text colors dynamically according to theme colors so everything stays readable.\r\n* **Status Bar Battery %:** Added actual percentage numbers to the status bar battery icon.\r\n* **Categorized Settings:** Reorganized the cluttered Settings menu into clean categories.\r\n* **Screen Color Filter:** Added a screen color filter feature for late-night listening.\r\n\r\n### \u2699\ufe0f Controls & System Improvements\r\n\r\n* **Force Reboot Shortcut:** Long-press the Play/Pause button for 5+ seconds to force restart the device.\r\n* **Quick Repeat Mode:** Long-press Play/Pause on the Player screen to quickly cycle through repeat modes.\r\n* **Power & Battery Stats:** Enhanced deep sleep / power management and added a dedicated Battery Usage Statistics screen.\r\n\r\n### \ud83c\udfae Bonus Features!\r\n\r\n* **Mini-Games Added:** Take a break and play **2048** or **FreeCell** directly on your device!\r\n\r\n---\r\n\r\n\ud83d\udd0d **Useful Links:**\r\n\r\n* \ud83d\udce6 **Download Latest Release:** [[[GitHub Release Link]](https://www.google.com/search?q=https://github.com/ismileblue/y1_launcher/releases)](https://www.google.com/search?q=https://github.com/ismileblue/y1_launcher/releases)\r\n* \ud83d\udcac **Feedback & Bug Reports:** Feel free to leave a comment below or open an issue on [[[GitHub Issues]](https://www.google.com/search?q=https://github.com/ismileblue/y1_launcher/issues)](https://www.google.com/search?q=https://github.com/ismileblue/y1_launcher/issues)!\r\n\r\n",
+      "assets": [
+        {
+          "name": "rom-windows.zip",
+          "source_asset": "rom.zip",
+          "platform": "windows",
+          "size": 692573793,
+          "sha256": "fc69f6c6299c384e9531fc1ae648d98ea6a0a513a938e4532e926f04e9b9c182",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.4/rom-windows.zip"
+        },
+        {
+          "name": "rom-linux.zip",
+          "source_asset": "rom.zip",
+          "platform": "linux",
+          "size": 843884512,
+          "sha256": "5d9eea071f2c01acc75af7f855f54f83965293951cd27291503e7c94530c4c44",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.4/rom-linux.zip"
+        },
+        {
+          "name": "rom-macos.zip",
+          "source_asset": "rom.zip",
+          "platform": "macos",
+          "size": 643789199,
+          "sha256": "880eb532b0b8eace888fa646a740f94b37dd0056d6cb1e633f66c5e1f7f04301",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.4/rom-macos.zip"
+        },
+        {
+          "name": "rom_type_b-windows.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "windows",
+          "size": 636072359,
+          "sha256": "22b37ad6684b778bb7cbcd6fb26a45574df12c2989e4693c24ce77fd46f01687",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.4/rom_type_b-windows.zip"
+        },
+        {
+          "name": "rom_type_b-linux.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "linux",
+          "size": 787383078,
+          "sha256": "6f4d43b4fe199d41723c5e8da23fe249e434327fb3aad1ec48110129ecd6cb08",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.4/rom_type_b-linux.zip"
+        },
+        {
+          "name": "rom_type_b-macos.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "macos",
+          "size": 587287770,
+          "sha256": "8ff4f8be66f9f13749b0e16dda1c59540d29e4aa86c896436cde0d8717a66edc",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.4/rom_type_b-macos.zip"
+        },
+        {
+          "name": "rom_y2-windows.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "windows",
+          "size": 615201085,
+          "sha256": "15f0a8b930b5c5bef0d2ad0343fb5d68643e7e579789351da6a20f33f2d14a33",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.4/rom_y2-windows.zip"
+        },
+        {
+          "name": "rom_y2-linux.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "linux",
+          "size": 791116179,
+          "sha256": "1906e5d38c169f2368acebc278cb59d920322ba2050ca32f6a7c6edf21cb0abd",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.4/rom_y2-linux.zip"
+        },
+        {
+          "name": "rom_y2-macos.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "macos",
+          "size": 630811800,
+          "sha256": "b2d5c23c1469c0bfd71f3b3947b52ce88c07e7a08c9c23d0084c027e1f093408",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.4/rom_y2-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "rom.zip",
+        "rom_type_b.zip",
+        "rom_y2.zip"
+      ],
+      "stats_url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.4/stats.txt"
+    },
+    {
+      "tag": "launcher-v0.10",
+      "title": "Portable Flashing Package: JJ Launcher ROM v0.10",
+      "source_title": "JJ Launcher ROM v0.10",
+      "source_url": "https://github.com/ismileblue/y1_launcher/releases/tag/launcher-v0.10",
+      "published_at": "2026-08-01T12:30:07Z",
+      "prerelease": false,
+      "source_notes": "## \ud83c\udf89 JJ Launcher v0.10 is Finally Here!\r\n\r\nThanks to everyone's incredible interest and feedback, I am thrilled to finally release version 0.10! Thank you all so much for your continuous support and encouragement.\r\n\r\nSince the Radio and Audiobook features from the stock launcher aren't available when using custom launchers, I have built and integrated brand-new custom Radio and Audiobook features in this update. \r\n\r\nI also tried my best to incorporate the thoughtful feedback you all provided. Please understand that I couldn't list the usernames of everyone who gave such great suggestions, but I truly appreciate every single one of you!\r\n\r\n### \ud83d\ude80 Update Changelog (v0.10)\r\n\r\n* **Audio Engine Upgrade:** Replaced the audio playback engine from MediaPlayer to ExoPlayer *(Note: FLAC is still decoded via software)*.\r\n* **New Cover Flow:** Added a new Cover Flow visualizer.\r\n* **New Radio App:** Added a custom built-in Radio feature.\r\n* **New Audiobook App:** Added a custom built-in Audiobook feature.\r\n* **Multi-language Support:** Added support for English, Japanese, Chinese, Spanish, and Russian.\r\n* **Main Menu List View:** Main screen buttons can now be displayed in a list format.\r\n* **Album Thumbnails:** Added thumbnails to the album list view.\r\n* **Track Number Sorting:** The album list is now correctly sorted by track numbers.\r\n* **Focus Bug Fixed:** Fixed an issue where the UI navigation focus would be lost.\r\n* **Lyrics Support:** Added support for both embedded and external lyrics.\r\n* **New Audio Categories:** Added audio categorization by Year and Genre.\r\n* **Playback Speed Control:** Added fast playback support up to 2x speed *(excluding FLAC)*.\r\n* **10-Second Skip:** Added the ability to skip backward/forward by 10 seconds using the left/right buttons.\r\n* **Quick Add to Playlist:** You can now add a song to a playlist by long-pressing the Stop button on the player screen.\r\n* **Screen-Off Shortcut:** Added a screen-off shortcut by long-pressing the Center button *(Note: Not available in the file list view as it overlaps with the 'add to playlist' shortcut)*.\r\n* **Custom Main Buttons:** Added the ability for users to edit/customize the main screen buttons.\r\n* **Theme Backgrounds:** Added default background image support for themes.\r\n* **Clock Format:** Added an option to toggle between 12-hour and 24-hour clock formats.\r\n* **Default Theme Changed:** Updated the default theme for a fresh look.\r\n* **New List Theme:** Added a new list-style theme.\r\n* **Infinite Wheel Toggle:** Added an option to turn the infinite wheel scrolling on or off.\r\n* **General Improvements:** Various bug fixes and UI optimizations.\r\n\r\n### \ud83d\udccc Future Plans\r\nFor future versions, rather than focusing on adding new features, my main priority will be fixing bugs to ensure stable performance and expanding the variety of themes available.\r\n\r\nPlease continue to show your interest and support. Thank you! :D",
+      "assets": [
+        {
+          "name": "rom-windows.zip",
+          "source_asset": "rom.zip",
+          "platform": "windows",
+          "size": 693826004,
+          "sha256": "fbfa614117f8e57b3003252120091ad95464d52e2469eec3a13339847ebbab1e",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.10/rom-windows.zip"
+        },
+        {
+          "name": "rom-linux.zip",
+          "source_asset": "rom.zip",
+          "platform": "linux",
+          "size": 845136723,
+          "sha256": "409e10acc3245c96dfe59888726e4376626f05d46ec53662bb505e3a2803f05f",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.10/rom-linux.zip"
+        },
+        {
+          "name": "rom-macos.zip",
+          "source_asset": "rom.zip",
+          "platform": "macos",
+          "size": 645041410,
+          "sha256": "44ba26ef6673006af80c068a2ea4fa6924d51cdd7f76e66954cdd07d9baaabdf",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.10/rom-macos.zip"
+        },
+        {
+          "name": "rom_type_b-windows.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "windows",
+          "size": 635789390,
+          "sha256": "f5a8a9b67df202b38918e47d0e4bc9afff202298f46b397fc81abe9c6cbaa502",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.10/rom_type_b-windows.zip"
+        },
+        {
+          "name": "rom_type_b-linux.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "linux",
+          "size": 787100109,
+          "sha256": "e149b5cfa6d6f1f2f904bad663dab321fdbd7c3fd8e6e29fda5873e411edc55c",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.10/rom_type_b-linux.zip"
+        },
+        {
+          "name": "rom_type_b-macos.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "macos",
+          "size": 587004801,
+          "sha256": "dde322ffa855ca88f6881494ea552e5f86171d87acb26c5a36854f9f42e33d35",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.10/rom_type_b-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "rom.zip",
+        "rom_type_b.zip"
+      ],
+      "stats_url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.10/stats.txt"
+    },
+    {
+      "tag": "launcher-v0.1",
+      "title": "Portable Flashing Package: JJ Launcher ROM v0.1",
+      "source_title": "JJ Launcher ROM v0.1",
+      "source_url": "https://github.com/ismileblue/y1_launcher/releases/tag/launcher-v0.1",
+      "published_at": "2026-08-01T12:29:59Z",
+      "prerelease": false,
+      "source_notes": "",
+      "assets": [
+        {
+          "name": "rom-windows.zip",
+          "source_asset": "rom.zip",
+          "platform": "windows",
+          "size": 692875329,
+          "sha256": "fec9fa266aef97d9c59a5ab612fc75f449d40b9278744ceca6882d0a6c7bfc79",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.1/rom-windows.zip"
+        },
+        {
+          "name": "rom-linux.zip",
+          "source_asset": "rom.zip",
+          "platform": "linux",
+          "size": 844186048,
+          "sha256": "a4fe90c0f50686f9f5d1b8a504218bbfeaf51eff3ca815f446f93685cfc20708",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.1/rom-linux.zip"
+        },
+        {
+          "name": "rom-macos.zip",
+          "source_asset": "rom.zip",
+          "platform": "macos",
+          "size": 644090737,
+          "sha256": "ab81f616ba037d612f6d7b1220201c8d2d083a3bf11518c593f9ea6b78b779b4",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.1/rom-macos.zip"
+        },
+        {
+          "name": "rom_type_b-windows.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "windows",
+          "size": 635933502,
+          "sha256": "7793dc43cc8f3dfd154b127aae8a293ce57d48d1e4c9000b3193f17f2a02f937",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.1/rom_type_b-windows.zip"
+        },
+        {
+          "name": "rom_type_b-linux.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "linux",
+          "size": 787244221,
+          "sha256": "9f443d1ed617b8d3a0cf020a0676f8c1a03a1ffa421b789b0d6fdb0705af5d00",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.1/rom_type_b-linux.zip"
+        },
+        {
+          "name": "rom_type_b-macos.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "macos",
+          "size": 587148914,
+          "sha256": "dadee662c142aa64dda855f8fe0d01e6b56c034dd3453953b93932564edadf40",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.1/rom_type_b-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "rom.zip",
+        "rom_type_b.zip"
+      ],
+      "stats_url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.1/stats.txt"
+    },
+    {
+      "tag": "launcher-v0.11.1",
+      "title": "Portable Flashing Package: JJ Launcher ROM v0.11.1",
+      "source_title": "JJ Launcher ROM v0.11.1",
+      "source_url": "https://github.com/ismileblue/y1_launcher/releases/tag/launcher-v0.11.1",
+      "published_at": "2026-08-01T12:29:59Z",
+      "prerelease": false,
+      "source_notes": "This is a new test version that adds full support for firmware 3.1.2 and introduces the new Video Player feature!",
+      "assets": [
+        {
+          "name": "rom-windows.zip",
+          "source_asset": "rom.zip",
+          "platform": "windows",
+          "size": 693359943,
+          "sha256": "abae6957873056763bb1470985df23a2e040261db532de936350d7440be9ace1",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.1/rom-windows.zip"
+        },
+        {
+          "name": "rom-linux.zip",
+          "source_asset": "rom.zip",
+          "platform": "linux",
+          "size": 844670662,
+          "sha256": "9b26f6cb299f7bff19e2d521c653439012c3cbfe3d26e662023829257be90f4c",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.1/rom-linux.zip"
+        },
+        {
+          "name": "rom-macos.zip",
+          "source_asset": "rom.zip",
+          "platform": "macos",
+          "size": 644575349,
+          "sha256": "07a36f6f8fdfeb386131e77632347d77ce4489f3c72732dbbc54ecd04cc192bb",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.1/rom-macos.zip"
+        },
+        {
+          "name": "rom_type_b-windows.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "windows",
+          "size": 640831055,
+          "sha256": "3ce397542dda940d5fdb7d2bba8a10e8d7ab62f5777698cbdd1390890477f0c6",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.1/rom_type_b-windows.zip"
+        },
+        {
+          "name": "rom_type_b-linux.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "linux",
+          "size": 792141774,
+          "sha256": "7dacd4af60ab10c64a0c9d2629a493d0556595fac6649d0edad10d43422388cb",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.1/rom_type_b-linux.zip"
+        },
+        {
+          "name": "rom_type_b-macos.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "macos",
+          "size": 592046467,
+          "sha256": "c62e3d2d9bb799edb24ca925bf935d8eab615d0fdc4d0435dcd513e751b5e4c1",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.1/rom_type_b-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "rom.zip",
+        "rom_type_b.zip"
+      ],
+      "stats_url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.1/stats.txt"
+    }
+  ],
   "source_readme": {
     "path": "README.md",
     "source_path": "README.md",
