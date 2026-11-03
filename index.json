@@ -1,11 +1,39 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-03T18:31:23Z",
+  "generated_at": "2026-11-03T22:20:48Z",
   "source_repo": "ismileblue/y1_launcher",
   "mirror_repo": "y1-community/y1_launcher-mirror",
   "title_prefix": "Portable Flashing Package: ",
   "updater_repo": "y1-community/updater-ce-neo",
   "platforms": [
+    {
+      "key": "windows",
+      "os": "windows",
+      "arch": "x86-64",
+      "suffix": "-windows.zip",
+      "layout": "sp_flash_tool"
+    },
+    {
+      "key": "windows-arm64",
+      "os": "windows",
+      "arch": "arm64",
+      "suffix": "-windows-arm64.zip",
+      "layout": "sp_flash_tool"
+    },
+    {
+      "key": "linux",
+      "os": "linux",
+      "arch": "x86-64",
+      "suffix": "-linux.zip",
+      "layout": "sp_flash_tool"
+    },
+    {
+      "key": "linux-arm64",
+      "os": "linux",
+      "arch": "arm64",
+      "suffix": "-linux-arm64.zip",
+      "layout": "sp_flash_tool"
+    },
     {
       "key": "macos",
       "os": "macos",
@@ -25,27 +53,75 @@
       "source_notes": "",
       "assets": [
         {
+          "name": "rom-windows.zip",
+          "source_asset": "rom.zip",
+          "platform": "windows",
+          "size": 692560449,
+          "sha256": "a9bc148669e644f0d0138c79966f7b56a8a3fec867062ca270b2f321d5c445e7",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6hotfix4/rom-windows.zip"
+        },
+        {
+          "name": "rom-linux.zip",
+          "source_asset": "rom.zip",
+          "platform": "linux",
+          "size": 843871168,
+          "sha256": "971c144193e1b236d3c405e98fcb32c9c1e03740eb53292f1fbbc4807c35d24e",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6hotfix4/rom-linux.zip"
+        },
+        {
           "name": "rom-macos.zip",
           "source_asset": "rom.zip",
           "platform": "macos",
           "size": 642983934,
-          "sha256": "1aebe0f51a3050fb36d97f70349ab3b73d149bf1fb040fe3e0ff86d12d9c6226",
+          "sha256": "3546e52f0b27b7a5cb80b74332ec6c9dd915cc1bcf54a962cfd3aca18db6ba7f",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6hotfix4/rom-macos.zip"
+        },
+        {
+          "name": "rom_type_b-windows.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "windows",
+          "size": 636061878,
+          "sha256": "6be97bd255d42936f0184d6b2abee56e1f09bc8a4abf8f6002e33bb93e23f3f9",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6hotfix4/rom_type_b-windows.zip"
+        },
+        {
+          "name": "rom_type_b-linux.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "linux",
+          "size": 787372597,
+          "sha256": "2cf9c542705e1464af68d7caa448fb8e03411e6114493cf2a9a944870731aa41",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6hotfix4/rom_type_b-linux.zip"
         },
         {
           "name": "rom_type_b-macos.zip",
           "source_asset": "rom_type_b.zip",
           "platform": "macos",
           "size": 586485368,
-          "sha256": "bd57c5c82f0430d65cb5017d262610c8c50750c690d2b8734fd6a513cf58b1ff",
+          "sha256": "fea8ae02b61e3312e4ab07edcab7f761db645e6076a435eee1492b87cc70e177",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6hotfix4/rom_type_b-macos.zip"
+        },
+        {
+          "name": "rom_y2-windows.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "windows",
+          "size": 608913851,
+          "sha256": "bd72e3e4293c19e2095c0e198ce605849c6545e4ac18d111a77ce28f5e072bab",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6hotfix4/rom_y2-windows.zip"
+        },
+        {
+          "name": "rom_y2-linux.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "linux",
+          "size": 760224570,
+          "sha256": "2d3a7b415b980d13daef10255a897f37bc8d435eeff35c4ca12d0176006de1aa",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6hotfix4/rom_y2-linux.zip"
         },
         {
           "name": "rom_y2-macos.zip",
           "source_asset": "rom_y2.zip",
           "platform": "macos",
           "size": 559337336,
-          "sha256": "0b55baf05ad26b8204c3b3fe6c7f8e76290cc205d7cdd63af299944daaf5e6e7",
+          "sha256": "fe5ccac55c1a1dba9f5cf23e7c7e7b877e67c5a15228ab1c1686b1c30136cf7d",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6hotfix4/rom_y2-macos.zip"
         }
       ],
@@ -66,27 +142,75 @@
       "source_notes": "\r\n---\r\n\r\n### \ud83d\ude80 JJ Launcher v0.11.6 Release Notes\r\n\r\n**Important Notice on FLAC Playback**\r\n\r\n* Due to stability issues with the previous downsampling engine, we have reverted to the legacy downsampling engine. Please note that this down-sampling engine downgrade may cause potential side effects or issues with FLAC playback.\r\n\r\n---\r\n\r\n### \ud83c\udf1f Key Updates & Improvements\r\n\r\n* **Audio Engine Downgrade:** Reverted the FLAC downsampling engine to the legacy version for better stability.\r\n* **Opus Album Art Fix:** Fixed an issue where album art for Opus audio files was not displaying properly.\r\n* **Player UI Enhancements:** Added playback speed control, a close button, and a sleep timer function directly to the music player screen.\r\n* **Video Player:** Added a continuous video playback feature.\r\n* **Library UI:** Resized album art thumbnails in the library view for better layout balance.\r\n* **Podcast Engine Overhaul:** Significantly improved podcast streaming and channel loading performance. Special thanks to **ArcSmurf** for the amazing contribution!\r\n* **Language Bug Fix:** Resolved a bug where language settings would randomly reset.\r\n\r\n---\r\n\r\n### \ud83c\udfb5 Last.fm Scrobbling Support & API Announcement\r\n\r\n* **Last.fm Scrobbling Integrated:** You can now scrobble your tracks to Last.fm!\r\n* **Commercial API Access Granted:** Thanks to the support of the Last.fm team, we have been granted **1 year of free commercial API access**.\r\n* **Seamless Login:** Pro users can now use Last.fm scrobbling using only their account credentials (no separate API key required!). Simply launch the web server and log in.\r\n* **Support the Project:** To keep Last.fm integration and other features running continuously in the future, your donations and support are always greatly appreciated!",
       "assets": [
         {
+          "name": "rom-windows.zip",
+          "source_asset": "rom.zip",
+          "platform": "windows",
+          "size": 692558117,
+          "sha256": "4be579b0a549a28b9a0a2a80bb41d9b4d9bb60e8bfb0067011e66ba3912fcfb6",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6/rom-windows.zip"
+        },
+        {
+          "name": "rom-linux.zip",
+          "source_asset": "rom.zip",
+          "platform": "linux",
+          "size": 843868836,
+          "sha256": "06abcd73da61db67c5eac8e13c20aab238793d08d771f6d264998a14944406af",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6/rom-linux.zip"
+        },
+        {
           "name": "rom-macos.zip",
           "source_asset": "rom.zip",
           "platform": "macos",
           "size": 642981603,
-          "sha256": "24d47ed8df368c4fade89f5cae51585d1f43d238394088e92a27d0b48f4f5be2",
+          "sha256": "5fafaa9ec3ed7bf14c49dddc72df170aabdb7d762eca7acde5bc53987dfde00c",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6/rom-macos.zip"
+        },
+        {
+          "name": "rom_type_b-windows.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "windows",
+          "size": 636071206,
+          "sha256": "999f0ab7ab64f4d9efe7667bb5821f209975c03bfa7bde0651a8b03bc20c1477",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6/rom_type_b-windows.zip"
+        },
+        {
+          "name": "rom_type_b-linux.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "linux",
+          "size": 787381925,
+          "sha256": "daef8e482fabf16377cca5193184fa3eab49b6edcf9534a56197bd32fe020fb3",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6/rom_type_b-linux.zip"
         },
         {
           "name": "rom_type_b-macos.zip",
           "source_asset": "rom_type_b.zip",
           "platform": "macos",
           "size": 586494698,
-          "sha256": "ae789b2cd24e604d01eae4d72719737000b2f60d01c62ec5e6bd1230e8fa7ed1",
+          "sha256": "05ad1c599b5ef35fee9af0d57c0d699e76620fc14b35e2b7b6f881a47736f25a",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6/rom_type_b-macos.zip"
+        },
+        {
+          "name": "rom_y2-windows.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "windows",
+          "size": 608897545,
+          "sha256": "f318e635845823f44959c2c1b3ffc1b3a9db667dcdae93a600fba8fad2112e94",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6/rom_y2-windows.zip"
+        },
+        {
+          "name": "rom_y2-linux.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "linux",
+          "size": 760208264,
+          "sha256": "ccd1d9466fbc844be0d132c377ea898894f33c41634bc05ad9963bdf28e1febc",
+          "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6/rom_y2-linux.zip"
         },
         {
           "name": "rom_y2-macos.zip",
           "source_asset": "rom_y2.zip",
           "platform": "macos",
           "size": 559321032,
-          "sha256": "dae21a57ebe76c90a497d1e90d28e958e17b911ab8a6ab5035c734b99a0caa26",
+          "sha256": "1266374b90d3a50f4c9a8925d1a8d7c7b38bb8e6fd464fa714c737c3034dddce",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6/rom_y2-macos.zip"
         }
       ],
@@ -111,7 +235,7 @@
           "source_asset": "rom.zip",
           "platform": "windows",
           "size": 692560369,
-          "sha256": "7d67901b929425b9c059b34ef2ff42978a1237aa311715125809417613ed4fac",
+          "sha256": "19666469dfeb5b37e0eff5d1e3893e46fe907a701221a49895f68939eaffc07e",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.5/rom-windows.zip"
         },
         {
@@ -119,15 +243,15 @@
           "source_asset": "rom.zip",
           "platform": "linux",
           "size": 843871088,
-          "sha256": "b8ab488c4fa8486e7cf1c2fbd2e2e533c0716eb13f249e5708f7ef18ca7c3147",
+          "sha256": "a7df5fc4ad3311ec9acbdd763137cfc92da76b987538ef174291602775e08fac",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.5/rom-linux.zip"
         },
         {
           "name": "rom-macos.zip",
           "source_asset": "rom.zip",
           "platform": "macos",
-          "size": 643775775,
-          "sha256": "96e9dd556e8bb89af76cb0820c3a56567c4af79e204e686c125a6197f36a2032",
+          "size": 642983855,
+          "sha256": "1e0d052018aea541f40c54a5ba0a0c4f22adfac2b8117a1c832390b47ae11f06",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.5/rom-macos.zip"
         },
         {
@@ -135,7 +259,7 @@
           "source_asset": "rom_type_b.zip",
           "platform": "windows",
           "size": 636062421,
-          "sha256": "8462518422c1d36ea6f7a32c3533f8593b0c3e8799dae19b80b3db6378eae97e",
+          "sha256": "f26023dae9d9847b6b8ccdc19b6ae413e89ebbc17e81a768158e8b6612664d48",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.5/rom_type_b-windows.zip"
         },
         {
@@ -143,39 +267,39 @@
           "source_asset": "rom_type_b.zip",
           "platform": "linux",
           "size": 787373140,
-          "sha256": "8964364a45e5a48ccd531c922117d293b4d86ceb43650c95cb9d7adc263cf966",
+          "sha256": "c3b2e9d87aed2802ec0ad85eab1ddceb71a7305f2d3ce1c0e330a02b20bb8e00",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.5/rom_type_b-linux.zip"
         },
         {
           "name": "rom_type_b-macos.zip",
           "source_asset": "rom_type_b.zip",
           "platform": "macos",
-          "size": 587277832,
-          "sha256": "30b3bb9f45f5de74f42d785f1d9d299d7f3038ac5b1852aecc61a076a118fee9",
+          "size": 586485912,
+          "sha256": "920dd14b2e58ca7b72568298d2ab7994455975566ec056097634f94cbdbe7d5c",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.5/rom_type_b-macos.zip"
         },
         {
           "name": "rom_y2-windows.zip",
           "source_asset": "rom_y2.zip",
           "platform": "windows",
-          "size": 615319988,
-          "sha256": "deaf0d488615ebe8d7b22ebab8bcc446eaa71c60ad6e1aa4ce7f5dcfc202eeb3",
+          "size": 608897639,
+          "sha256": "6825594e19610fa56009e94b4527025550b2cf7ad18cf673c2f0be479ee12fe8",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.5/rom_y2-windows.zip"
         },
         {
           "name": "rom_y2-linux.zip",
           "source_asset": "rom_y2.zip",
           "platform": "linux",
-          "size": 791235082,
-          "sha256": "ed93cb652460b9d02d130f764e3aad1ee5c1b75596a525f72420e906d765b094",
+          "size": 760208358,
+          "sha256": "dbf033ffdb34ac857c233786253331489964d3826c5cd3416fd1a856dcad81d3",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.5/rom_y2-linux.zip"
         },
         {
           "name": "rom_y2-macos.zip",
           "source_asset": "rom_y2.zip",
           "platform": "macos",
-          "size": 630930703,
-          "sha256": "1c6c4fd0e021f2c12987af01c603111abc75a1dc03758c8288ce0f9186ce94e3",
+          "size": 559321126,
+          "sha256": "e3fbfdf3775a716806a3539627760ee9b465005f66736e400963ddcf8c800337",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.5/rom_y2-macos.zip"
         }
       ],
@@ -200,7 +324,7 @@
           "source_asset": "rom.zip",
           "platform": "windows",
           "size": 693826020,
-          "sha256": "57dbf52aeacaa5ea10919335a79b264043d8bebd9297cf58508b4c455cfebb40",
+          "sha256": "60c41e1c90c825450775f2dd3ff24fc0e16a7d4003d83045975f517f82972f4f",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.10.1/rom-windows.zip"
         },
         {
@@ -208,15 +332,15 @@
           "source_asset": "rom.zip",
           "platform": "linux",
           "size": 845136739,
-          "sha256": "18b25dc97f0d7a832d11819abd2578f81a94ae5cd28d691fa76f575370416a4c",
+          "sha256": "f596cba1aaaf65ff14c8fba5a40f238c5a3a725a311456e6e37d336fd7ef66a1",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.10.1/rom-linux.zip"
         },
         {
           "name": "rom-macos.zip",
           "source_asset": "rom.zip",
           "platform": "macos",
-          "size": 645041427,
-          "sha256": "813ad67b6f78f426694eb830f9259f5440f92c4fc0360b761535e4b1acf70d83",
+          "size": 644249505,
+          "sha256": "a68b78953da79c3aa5c2eda51a9c7bf3345eaec98e346fde1beed750660a1e8d",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.10.1/rom-macos.zip"
         },
         {
@@ -224,7 +348,7 @@
           "source_asset": "rom_type_b.zip",
           "platform": "windows",
           "size": 635780772,
-          "sha256": "8bcbc3db988ab4323a5714946c7175e4464e432e70dda31e9c69ed159c5ed37a",
+          "sha256": "9632f8b9c2baf7c5fd81d182b80eaaca09bd8789927470e66820dbfb198fdae2",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.10.1/rom_type_b-windows.zip"
         },
         {
@@ -232,15 +356,15 @@
           "source_asset": "rom_type_b.zip",
           "platform": "linux",
           "size": 787091491,
-          "sha256": "ffc4c1ecdfba0c305e630e18531400fa2a19e18a8670cb15b290ecdb4cd2dd2a",
+          "sha256": "7b75a2053ea6399cbebbf27d560ac6722c469112f19bfea577272f22a930995d",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.10.1/rom_type_b-linux.zip"
         },
         {
           "name": "rom_type_b-macos.zip",
           "source_asset": "rom_type_b.zip",
           "platform": "macos",
-          "size": 586996184,
-          "sha256": "86ec3e55d08aa686608c1128ee1535f76cdc0bdae6f6767f412d113e2b94900d",
+          "size": 586204264,
+          "sha256": "211664b0655299274e471675c26931d5b787a5e247c204abbd8be47f25512764",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.10.1/rom_type_b-macos.zip"
         }
       ],
@@ -264,7 +388,7 @@
           "source_asset": "rom.zip",
           "platform": "windows",
           "size": 692858825,
-          "sha256": "00e638c6bb48e27d5af95ed1dd0765632ddecca78f2cce8118db2823060675e6",
+          "sha256": "5da7ef0f7ee5279dce0751c6060a4f4ca7129a823077fac0cde850cbbade60f6",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.6/rom-windows.zip"
         },
         {
@@ -272,15 +396,15 @@
           "source_asset": "rom.zip",
           "platform": "linux",
           "size": 844169544,
-          "sha256": "391ea7896e4441f8247f7c814a2f51551f62cbbea29f8b25a445a2c385ea6e04",
+          "sha256": "d269b2d27f437de8024c0df75005133bc5c3d21f00ff989bf27b8fe38a827b14",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.6/rom-linux.zip"
         },
         {
           "name": "rom-macos.zip",
           "source_asset": "rom.zip",
           "platform": "macos",
-          "size": 644074232,
-          "sha256": "fa0a600d0656cbc2465f41e1986c3233006406d70fbc15d47594b2638344467b",
+          "size": 643282310,
+          "sha256": "baaaf9caf3bcb01ddf7c0e85d45a6f0f94701de9f6486d0e9a129bcae9a2e5cf",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.6/rom-macos.zip"
         },
         {
@@ -288,7 +412,7 @@
           "source_asset": "rom_type_b.zip",
           "platform": "windows",
           "size": 635966238,
-          "sha256": "826f1f4d6e711acf277f100fdaf2688d003a89c855bd61f316c79626a48893ed",
+          "sha256": "c59de3642c8a0912fd4ee2d99c627b226b07b25704d483f7a3156084ee41c2b6",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.6/rom_type_b-windows.zip"
         },
         {
@@ -296,15 +420,15 @@
           "source_asset": "rom_type_b.zip",
           "platform": "linux",
           "size": 787276957,
-          "sha256": "2e5aa4faee93dd8d9430386bb9cf11611ef18d46e6d42eac39ffef248a237733",
+          "sha256": "7a0808e207d038da0e4689f35460695355f04981b9fe26003420e0e08ab00196",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.6/rom_type_b-linux.zip"
         },
         {
           "name": "rom_type_b-macos.zip",
           "source_asset": "rom_type_b.zip",
           "platform": "macos",
-          "size": 587181650,
-          "sha256": "622c5628fb7d7428cfc9567e51d9dd810ed491bfe1041df4f2c7933ef2c0f718",
+          "size": 586389730,
+          "sha256": "3a5d0642746dc5677cefd56a8dcb5e7680064bdc5d0cb9f2a65c3cd05009d1d3",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.6/rom_type_b-macos.zip"
         }
       ],
@@ -328,7 +452,7 @@
           "source_asset": "rom.zip",
           "platform": "windows",
           "size": 692880182,
-          "sha256": "37bb44a753368482407530d2210a31d91f81c63ca0bbb0b0885ee895bbc42bc2",
+          "sha256": "d61db0d0da480508e8f773c564e0f06162a3bdf0911a67cc3d65e48c4168be23",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.9/rom-windows.zip"
         },
         {
@@ -336,15 +460,15 @@
           "source_asset": "rom.zip",
           "platform": "linux",
           "size": 844190901,
-          "sha256": "31d596998df68e80dd3f177936dbf5e00c7a35bcb9460a40c8eb87ac2f6dce86",
+          "sha256": "e8ab1f75017c207c20cc5bf215d3173da364b8c0052c1e00c994b88c83a74d5a",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.9/rom-linux.zip"
         },
         {
           "name": "rom-macos.zip",
           "source_asset": "rom.zip",
           "platform": "macos",
-          "size": 644095589,
-          "sha256": "0960058ed6c05f95e65ce4f5473061159e4acb8963aa510df7909aee2a98d990",
+          "size": 643303667,
+          "sha256": "ffa26d829d69acd1735dc1bcd42d3d4b3dab4392067cc8b10563cda17d215312",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.9/rom-macos.zip"
         },
         {
@@ -352,7 +476,7 @@
           "source_asset": "rom_type_b.zip",
           "platform": "windows",
           "size": 635807715,
-          "sha256": "4c448ac4443cea1bc710f76c6e6b14c986b98e82dab613025ee2657652b21ec8",
+          "sha256": "a4903aa0a4e7e829943b8340438c29fe93bb6c5cfefb100474be524a99beb1cf",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.9/rom_type_b-windows.zip"
         },
         {
@@ -360,15 +484,15 @@
           "source_asset": "rom_type_b.zip",
           "platform": "linux",
           "size": 787118434,
-          "sha256": "e58dc23c9235c681a46c004a6095b4fe88bcef86e04e658a900a871c49e7798d",
+          "sha256": "c984f8210c5052b10fe1b67bc800518c918184690392874b4c87c74036649705",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.9/rom_type_b-linux.zip"
         },
         {
           "name": "rom_type_b-macos.zip",
           "source_asset": "rom_type_b.zip",
           "platform": "macos",
-          "size": 587023127,
-          "sha256": "bd75d27858eac514c9557b75067b9018309e455d92841af73e705f43dea22784",
+          "size": 586231207,
+          "sha256": "55f57979e1173553282bcd8a417f54394a3083e222db3e465f8c93a20e6fdff4",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.9/rom_type_b-macos.zip"
         }
       ],
@@ -392,7 +516,7 @@
           "source_asset": "rom.zip",
           "platform": "windows",
           "size": 692861695,
-          "sha256": "91d7dd9b504aeb69752950a0f55ec6e3c81a4dd1265d2f350a37718f47f4447e",
+          "sha256": "8f25062415d97074fd13951cf64fff33519a27edc22275443c3dafd900975b5a",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.3/rom-windows.zip"
         },
         {
@@ -400,15 +524,15 @@
           "source_asset": "rom.zip",
           "platform": "linux",
           "size": 844172414,
-          "sha256": "d8f91d28cd2d3c461aa78c5b25f4e79c4ac18d967f06c521ef3b6653b81a532e",
+          "sha256": "4f3c5993b2a00a9e615aa9f4d0d05faeced9d5a1f1c2e0bb0d2c4cf8c5da16b8",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.3/rom-linux.zip"
         },
         {
           "name": "rom-macos.zip",
           "source_asset": "rom.zip",
           "platform": "macos",
-          "size": 644077101,
-          "sha256": "09392f43ea69f44cc603a79614c20aba0b8afc6ca46436d2aba28804a530e956",
+          "size": 643285179,
+          "sha256": "1ea30ac26ae82d362d2129dffb10736a043aa2c874fe5d432fe982000c1e9632",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.3/rom-macos.zip"
         },
         {
@@ -416,7 +540,7 @@
           "source_asset": "rom_type_b.zip",
           "platform": "windows",
           "size": 635952107,
-          "sha256": "ba47bc77ac5b88df328acf1210b7493eb4827938686daec0ed129a49c7f6fdb6",
+          "sha256": "ee4e25bb7d0963c9044821f85ba378a00dbd654b3dfab8406c7ced8f7f371ddb",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.3/rom_type_b-windows.zip"
         },
         {
@@ -424,15 +548,15 @@
           "source_asset": "rom_type_b.zip",
           "platform": "linux",
           "size": 787262826,
-          "sha256": "5d33f56e880d4f65c74fde2a19cbc7cb6c428d40688c66a72167fc973b973c36",
+          "sha256": "6afe13475ec958823186542305db2edc50f872a48828a104f9dc5154803bfba3",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.3/rom_type_b-linux.zip"
         },
         {
           "name": "rom_type_b-macos.zip",
           "source_asset": "rom_type_b.zip",
           "platform": "macos",
-          "size": 587167518,
-          "sha256": "cacbd2a33a54264f8b154f944a8c69a734b978530fbb28901d82c3c31dc9f4a3",
+          "size": 586375598,
+          "sha256": "38fea7de5406d3674a19de78082354ea2e208e8e874cea8767b6804b34ed8dc7",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.3/rom_type_b-macos.zip"
         }
       ],
@@ -456,7 +580,7 @@
           "source_asset": "rom.zip",
           "platform": "windows",
           "size": 692881307,
-          "sha256": "851b12c5244f1f1a3bcd1be6970fa10911d6434a3345687b424c1a6053c4d5d1",
+          "sha256": "b429175aa915d2117762aa8ddb2c33f1e2650268055429159ec5f9c671166b4c",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.8/rom-windows.zip"
         },
         {
@@ -464,15 +588,15 @@
           "source_asset": "rom.zip",
           "platform": "linux",
           "size": 844192026,
-          "sha256": "ec22ae110bc4c0b577f65af5c088ec2208df8e1f3ab5b7170d11a3f6caa58d92",
+          "sha256": "27cffaeb77be5529216c85a35809411a29670b41b191862ccde6b3f67ae6246d",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.8/rom-linux.zip"
         },
         {
           "name": "rom-macos.zip",
           "source_asset": "rom.zip",
           "platform": "macos",
-          "size": 644096714,
-          "sha256": "f41b2078297ed331533dfc1e6a1072c459f2f9b9dfcb1abaac68457882a89f76",
+          "size": 643304792,
+          "sha256": "7165ab87ae38c61c8b3b768e3cdf1187584e91088a76c9a02b084741f424637e",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.8/rom-macos.zip"
         },
         {
@@ -480,7 +604,7 @@
           "source_asset": "rom_type_b.zip",
           "platform": "windows",
           "size": 635824297,
-          "sha256": "7f28fa4a7038d93c19d70ae4e256c8eaf5be2dcb085397ee9930bd499e52177c",
+          "sha256": "67b24285372896542d98e8724597961aa33af4ccae4b41545a6908624ad46d1e",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.8/rom_type_b-windows.zip"
         },
         {
@@ -488,15 +612,15 @@
           "source_asset": "rom_type_b.zip",
           "platform": "linux",
           "size": 787135016,
-          "sha256": "3f1a2686c13d6b8309e4542b578def874ba087d60f842415acead73b7fd8deed",
+          "sha256": "02a2e450c2c213291a49d32c842291cce01f9216a8e108eb487d81b74505fb63",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.8/rom_type_b-linux.zip"
         },
         {
           "name": "rom_type_b-macos.zip",
           "source_asset": "rom_type_b.zip",
           "platform": "macos",
-          "size": 587039709,
-          "sha256": "c40a0ba9a77179a46292abb0a23d3383ca0d02460c4bfe890338adb02c8fbffe",
+          "size": 586247789,
+          "sha256": "f6180a9b0ed2cf1eba95003178a6eef72390269376ed9e4cc1b4df1b77349766",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.8/rom_type_b-macos.zip"
         }
       ],
@@ -520,7 +644,7 @@
           "source_asset": "rom.zip",
           "platform": "windows",
           "size": 693360683,
-          "sha256": "73223637484bd7ee2090498bb3681cbef5c669af4c4206221f32d3b1e3635b33",
+          "sha256": "5dc9320f4fd2249f0e3c58ffb0102e3e8be02965be66eaecc4ea6d4364a10e6b",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11/rom-windows.zip"
         },
         {
@@ -528,15 +652,15 @@
           "source_asset": "rom.zip",
           "platform": "linux",
           "size": 844671402,
-          "sha256": "a32041fc64e18539911d84cc5d32ef1557ac3084385ece3132f96f2606221665",
+          "sha256": "7e68c54e98a3c6ef39f0e75950f62853caa26296759f2d5b6bce73da8dc16a5f",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11/rom-linux.zip"
         },
         {
           "name": "rom-macos.zip",
           "source_asset": "rom.zip",
           "platform": "macos",
-          "size": 644576090,
-          "sha256": "ea85efb2ad069dad439bcb2c16472d7aeb53fd84ca51505d5a8152187ab3b2b6",
+          "size": 643784169,
+          "sha256": "39f570bcdb61fb4c6916e97727b0e8f1823362845a3ee30b16e48fa799ebacdc",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11/rom-macos.zip"
         },
         {
@@ -544,7 +668,7 @@
           "source_asset": "rom_type_b.zip",
           "platform": "windows",
           "size": 640825527,
-          "sha256": "4d929a1c9a43d6dd2376607ec537687fd1f7c62c3eea44dbb9ba6552e48bb711",
+          "sha256": "6ea88ef207118b4c22e4465e8a83723bbf20edbc99eb3510a62824c2292937b4",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11/rom_type_b-windows.zip"
         },
         {
@@ -552,15 +676,15 @@
           "source_asset": "rom_type_b.zip",
           "platform": "linux",
           "size": 792136246,
-          "sha256": "baa23c5ad1583873cb2f964a3f04cc7ce8fec4633b328640809b8eda51d60877",
+          "sha256": "ba9defb79f089e1257dce9561570efe93142c9d4dbcdcee8680734e1233c54d6",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11/rom_type_b-linux.zip"
         },
         {
           "name": "rom_type_b-macos.zip",
           "source_asset": "rom_type_b.zip",
           "platform": "macos",
-          "size": 592040939,
-          "sha256": "719cfcf3734fb0462866fc890ace0fd5661f20f61efb4b6b80a91ce73c45b42e",
+          "size": 591249019,
+          "sha256": "3f69cbac1fd4ac730a38436cd10b48c4cd0f80e5ccd66896c4d9229a73211629",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11/rom_type_b-macos.zip"
         }
       ],
@@ -584,7 +708,7 @@
           "source_asset": "rom.zip",
           "platform": "windows",
           "size": 692878068,
-          "sha256": "a61f456c8c782b508804c38d08824b44b5c6c0a3644609a3b87e44ad45a1dc0b",
+          "sha256": "a9de67015e88f5beda4280ae24040d10643ade3d9afb465a9140dd9b47946756",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.5/rom-windows.zip"
         },
         {
@@ -592,15 +716,15 @@
           "source_asset": "rom.zip",
           "platform": "linux",
           "size": 844188787,
-          "sha256": "f88d57c3366831d9dc1e958a6ffbe2acc743f1303ace1eeb2522871554aeaca1",
+          "sha256": "9b9be05269f82c59e811fbf98608cb99c638e6fe559aae98fc7483632323fb2d",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.5/rom-linux.zip"
         },
         {
           "name": "rom-macos.zip",
           "source_asset": "rom.zip",
           "platform": "macos",
-          "size": 644093475,
-          "sha256": "4358d7fe4aca8713371883c315ee5331ca3c85ca5ef0e72aafe09d7782b58075",
+          "size": 643301553,
+          "sha256": "caf9660ea8a035c1445276640dd520a380d2c66c69803b34ec34700763630f11",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.5/rom-macos.zip"
         },
         {
@@ -608,7 +732,7 @@
           "source_asset": "rom_type_b.zip",
           "platform": "windows",
           "size": 635954009,
-          "sha256": "afd8583a78a8f5840bba4dcd277cc68742da6befc4b4d9a73b7f1141b0c8e2f0",
+          "sha256": "d0a6c6fffa57f84bc74cffe467b565a7f9228a76dfa2740c8aa9675045b5f1cf",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.5/rom_type_b-windows.zip"
         },
         {
@@ -616,15 +740,15 @@
           "source_asset": "rom_type_b.zip",
           "platform": "linux",
           "size": 787264728,
-          "sha256": "f92a64b0f66c1a8bb815a70b322968183bf21347cdd6dcaee9664bab7845c73c",
+          "sha256": "efffbf29521f83ff1cd89f203441cc3a4524c3d106ae42439031a48384dd56b1",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.5/rom_type_b-linux.zip"
         },
         {
           "name": "rom_type_b-macos.zip",
           "source_asset": "rom_type_b.zip",
           "platform": "macos",
-          "size": 587169421,
-          "sha256": "d3554080b81f3be4010a466b3f9bf3b5cb43a5a7c121d859e6b2d6f878c1ff8c",
+          "size": 586377501,
+          "sha256": "3334883eb56a9abe3d65ac77eff24a0f9a1b203a1992546709d40030d8b4de7a",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.5/rom_type_b-macos.zip"
         }
       ],
@@ -648,7 +772,7 @@
           "source_asset": "rom.zip",
           "platform": "windows",
           "size": 692573793,
-          "sha256": "fc69f6c6299c384e9531fc1ae648d98ea6a0a513a938e4532e926f04e9b9c182",
+          "sha256": "f5efd84cc352413d97a2dbfa2943685a2940ff33f3165b0b1f9038c198c76226",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.4/rom-windows.zip"
         },
         {
@@ -656,15 +780,15 @@
           "source_asset": "rom.zip",
           "platform": "linux",
           "size": 843884512,
-          "sha256": "5d9eea071f2c01acc75af7f855f54f83965293951cd27291503e7c94530c4c44",
+          "sha256": "d80bae29248e0c68cb4050098c9a464b2523fa4f1c327f40dc8d784b4986c887",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.4/rom-linux.zip"
         },
         {
           "name": "rom-macos.zip",
           "source_asset": "rom.zip",
           "platform": "macos",
-          "size": 643789199,
-          "sha256": "880eb532b0b8eace888fa646a740f94b37dd0056d6cb1e633f66c5e1f7f04301",
+          "size": 642997278,
+          "sha256": "e5a624411273ff6f893bca2a963f69ad12411fe5a0374fc516a5ab27adc92822",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.4/rom-macos.zip"
         },
         {
@@ -672,7 +796,7 @@
           "source_asset": "rom_type_b.zip",
           "platform": "windows",
           "size": 636072359,
-          "sha256": "22b37ad6684b778bb7cbcd6fb26a45574df12c2989e4693c24ce77fd46f01687",
+          "sha256": "4c384de440a2f7bf62fc223a785c60ea325c08cd433ecb26378d9840c80427c3",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.4/rom_type_b-windows.zip"
         },
         {
@@ -680,39 +804,39 @@
           "source_asset": "rom_type_b.zip",
           "platform": "linux",
           "size": 787383078,
-          "sha256": "6f4d43b4fe199d41723c5e8da23fe249e434327fb3aad1ec48110129ecd6cb08",
+          "sha256": "480dd272c9524e8d88f7089326c18132d2e33164c1c024f4627bc582721dd449",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.4/rom_type_b-linux.zip"
         },
         {
           "name": "rom_type_b-macos.zip",
           "source_asset": "rom_type_b.zip",
           "platform": "macos",
-          "size": 587287770,
-          "sha256": "8ff4f8be66f9f13749b0e16dda1c59540d29e4aa86c896436cde0d8717a66edc",
+          "size": 586495850,
+          "sha256": "cbbd792819d3f3769063c2ce19574237e177784c2b0827ee0cf86dfb83d949d3",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.4/rom_type_b-macos.zip"
         },
         {
           "name": "rom_y2-windows.zip",
           "source_asset": "rom_y2.zip",
           "platform": "windows",
-          "size": 615201085,
-          "sha256": "15f0a8b930b5c5bef0d2ad0343fb5d68643e7e579789351da6a20f33f2d14a33",
+          "size": 608778736,
+          "sha256": "d7941449a5c00f153d07d7a8a4061440dfdc4dcf6a087bd01a90a4c0edc30fbd",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.4/rom_y2-windows.zip"
         },
         {
           "name": "rom_y2-linux.zip",
           "source_asset": "rom_y2.zip",
           "platform": "linux",
-          "size": 791116179,
-          "sha256": "1906e5d38c169f2368acebc278cb59d920322ba2050ca32f6a7c6edf21cb0abd",
+          "size": 760089455,
+          "sha256": "8b58d1b35e26669855fe3cbbd479e35bbaf0994bfedf08c65413fcf8ef3a9a71",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.4/rom_y2-linux.zip"
         },
         {
           "name": "rom_y2-macos.zip",
           "source_asset": "rom_y2.zip",
           "platform": "macos",
-          "size": 630811800,
-          "sha256": "b2d5c23c1469c0bfd71f3b3947b52ce88c07e7a08c9c23d0084c027e1f093408",
+          "size": 559202222,
+          "sha256": "d8f48cfb7f7efd8eab9f38dd807d1ea8387d802f7c0ad4a088ddd55e49ee3893",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.4/rom_y2-macos.zip"
         }
       ],
@@ -737,7 +861,7 @@
           "source_asset": "rom.zip",
           "platform": "windows",
           "size": 693826004,
-          "sha256": "fbfa614117f8e57b3003252120091ad95464d52e2469eec3a13339847ebbab1e",
+          "sha256": "e6f2f49ee1c858e993b216e4f0c8652b69c70eb1d0380285186cbb7ef03c923e",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.10/rom-windows.zip"
         },
         {
@@ -745,15 +869,15 @@
           "source_asset": "rom.zip",
           "platform": "linux",
           "size": 845136723,
-          "sha256": "409e10acc3245c96dfe59888726e4376626f05d46ec53662bb505e3a2803f05f",
+          "sha256": "b8998ebc7e9f47d53b753dc1a6d707112d5585dfcc9edc534d90f2d9ba7b199b",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.10/rom-linux.zip"
         },
         {
           "name": "rom-macos.zip",
           "source_asset": "rom.zip",
           "platform": "macos",
-          "size": 645041410,
-          "sha256": "44ba26ef6673006af80c068a2ea4fa6924d51cdd7f76e66954cdd07d9baaabdf",
+          "size": 644249489,
+          "sha256": "a36e7cb0193d0380a654066866c9f970f2b9297a17cf96d54070770680ebc1c6",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.10/rom-macos.zip"
         },
         {
@@ -761,7 +885,7 @@
           "source_asset": "rom_type_b.zip",
           "platform": "windows",
           "size": 635789390,
-          "sha256": "f5a8a9b67df202b38918e47d0e4bc9afff202298f46b397fc81abe9c6cbaa502",
+          "sha256": "0205c1615b0097287e8b6c4d572098ab4530cea9605999b79b007682a602a966",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.10/rom_type_b-windows.zip"
         },
         {
@@ -769,15 +893,15 @@
           "source_asset": "rom_type_b.zip",
           "platform": "linux",
           "size": 787100109,
-          "sha256": "e149b5cfa6d6f1f2f904bad663dab321fdbd7c3fd8e6e29fda5873e411edc55c",
+          "sha256": "a843f33912c10d8bf1dc5dc22183728682f256db80b2b0c22200fb711ea9087c",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.10/rom_type_b-linux.zip"
         },
         {
           "name": "rom_type_b-macos.zip",
           "source_asset": "rom_type_b.zip",
           "platform": "macos",
-          "size": 587004801,
-          "sha256": "dde322ffa855ca88f6881494ea552e5f86171d87acb26c5a36854f9f42e33d35",
+          "size": 586212881,
+          "sha256": "12d792fcfcbcaddf2f241114c41e365009c936ac0de6385458ef2ffde4f637c2",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.10/rom_type_b-macos.zip"
         }
       ],
@@ -801,7 +925,7 @@
           "source_asset": "rom.zip",
           "platform": "windows",
           "size": 692875329,
-          "sha256": "fec9fa266aef97d9c59a5ab612fc75f449d40b9278744ceca6882d0a6c7bfc79",
+          "sha256": "dcb729e245bd4b89e6cf5a8cea9a0bc224a4ee5ced1d56d5dce49e5aecdebbdd",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.1/rom-windows.zip"
         },
         {
@@ -809,15 +933,15 @@
           "source_asset": "rom.zip",
           "platform": "linux",
           "size": 844186048,
-          "sha256": "a4fe90c0f50686f9f5d1b8a504218bbfeaf51eff3ca815f446f93685cfc20708",
+          "sha256": "37625b8cd38dd9c4e16c19612ba38557f854ca4820a3bae08fbaebc87b1527cb",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.1/rom-linux.zip"
         },
         {
           "name": "rom-macos.zip",
           "source_asset": "rom.zip",
           "platform": "macos",
-          "size": 644090737,
-          "sha256": "ab81f616ba037d612f6d7b1220201c8d2d083a3bf11518c593f9ea6b78b779b4",
+          "size": 643298814,
+          "sha256": "0f49ce5f555467dcf645de95d87b358ec5eb8f62507218028789972073810e38",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.1/rom-macos.zip"
         },
         {
@@ -825,7 +949,7 @@
           "source_asset": "rom_type_b.zip",
           "platform": "windows",
           "size": 635933502,
-          "sha256": "7793dc43cc8f3dfd154b127aae8a293ce57d48d1e4c9000b3193f17f2a02f937",
+          "sha256": "833fe46d8d9f857837c11f0c721e7b2ea4602cd018a874d4f104e27c3dab365a",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.1/rom_type_b-windows.zip"
         },
         {
@@ -833,15 +957,15 @@
           "source_asset": "rom_type_b.zip",
           "platform": "linux",
           "size": 787244221,
-          "sha256": "9f443d1ed617b8d3a0cf020a0676f8c1a03a1ffa421b789b0d6fdb0705af5d00",
+          "sha256": "cc5e573a0c6774d8f69bb8a056316412594cd15847c697665dca5d61e79ebfce",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.1/rom_type_b-linux.zip"
         },
         {
           "name": "rom_type_b-macos.zip",
           "source_asset": "rom_type_b.zip",
           "platform": "macos",
-          "size": 587148914,
-          "sha256": "dadee662c142aa64dda855f8fe0d01e6b56c034dd3453953b93932564edadf40",
+          "size": 586356994,
+          "sha256": "2ced30ccf54318d4e56c2b2eb97d8fbad7b0a30af052ffe6c9d071a5b70761b4",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.1/rom_type_b-macos.zip"
         }
       ],
@@ -865,7 +989,7 @@
           "source_asset": "rom.zip",
           "platform": "windows",
           "size": 693359943,
-          "sha256": "abae6957873056763bb1470985df23a2e040261db532de936350d7440be9ace1",
+          "sha256": "ff1fc2d0e2ed8405e31d1388675269c70d1026677b484b55930c5ce8a1c45005",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.1/rom-windows.zip"
         },
         {
@@ -873,15 +997,15 @@
           "source_asset": "rom.zip",
           "platform": "linux",
           "size": 844670662,
-          "sha256": "9b26f6cb299f7bff19e2d521c653439012c3cbfe3d26e662023829257be90f4c",
+          "sha256": "a8333bdff6ce0a537224334e967ea30d64c8f20841f8f1ea07e418b69fd5957c",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.1/rom-linux.zip"
         },
         {
           "name": "rom-macos.zip",
           "source_asset": "rom.zip",
           "platform": "macos",
-          "size": 644575349,
-          "sha256": "07a36f6f8fdfeb386131e77632347d77ce4489f3c72732dbbc54ecd04cc192bb",
+          "size": 643783429,
+          "sha256": "0e964e85f5fcd5541b7112b6ac72f842a9285973569313c2a43547002ed5757c",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.1/rom-macos.zip"
         },
         {
@@ -889,7 +1013,7 @@
           "source_asset": "rom_type_b.zip",
           "platform": "windows",
           "size": 640831055,
-          "sha256": "3ce397542dda940d5fdb7d2bba8a10e8d7ab62f5777698cbdd1390890477f0c6",
+          "sha256": "4291405902abd6afb9df191d8f219cf34db3f156fc6da33224f8c9db68587fe5",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.1/rom_type_b-windows.zip"
         },
         {
@@ -897,15 +1021,15 @@
           "source_asset": "rom_type_b.zip",
           "platform": "linux",
           "size": 792141774,
-          "sha256": "7dacd4af60ab10c64a0c9d2629a493d0556595fac6649d0edad10d43422388cb",
+          "sha256": "b84fce7488e55ef897e627e87f8fe919366c516a3538685f68142652ff5ee865",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.1/rom_type_b-linux.zip"
         },
         {
           "name": "rom_type_b-macos.zip",
           "source_asset": "rom_type_b.zip",
           "platform": "macos",
-          "size": 592046467,
-          "sha256": "c62e3d2d9bb799edb24ca925bf935d8eab615d0fdc4d0435dcd513e751b5e4c1",
+          "size": 591254547,
+          "sha256": "7d097e4ff5d9c3cba519cf933dba0ef185f4249ad04181b0d1d1916da9a494fc",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.1/rom_type_b-macos.zip"
         }
       ],
