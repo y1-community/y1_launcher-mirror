@@ -1,8 +1,11 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-11T16:09:32Z",
+  "generated_at": "2026-11-11T22:47:40Z",
   "source_repo": "ismileblue/y1_launcher",
+  "source_fallback_repo": "",
   "mirror_repo": "y1-community/y1_launcher-mirror",
+  "mirror_fallback_repo": "ryan-specter/y1_launcher-mirror",
+  "fallback_index_url": "https://raw.githubusercontent.com/ryan-specter/y1_launcher-mirror/main/index.json",
   "title_prefix": "Portable Flashing Package: ",
   "updater_repo": "y1-community/updater-ce-neo",
   "platforms": [
@@ -45,6 +48,14 @@
       "suffix": "-linux-arm64.zip",
       "layout": "sp_flash_tool",
       "legacy": false
+    },
+    {
+      "key": "linux-legacy",
+      "os": "linux",
+      "arch": "x86",
+      "suffix": "-linux-legacy.zip",
+      "layout": "sp_flash_tool",
+      "legacy": true
     },
     {
       "key": "macos",
