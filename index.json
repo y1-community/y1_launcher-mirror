@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-21T05:31:11Z",
+  "generated_at": "2026-11-21T12:22:17Z",
   "source_repo": "ismileblue/y1_launcher",
   "source_fallback_repo": "",
   "mirror_repo": "y1-community/y1_launcher-mirror",
@@ -106,7 +106,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 757139319,
-          "sha256": "a189a14a041bf9858e1547b4d5c55721bd72fed39865a2a1a77b70989a44c19a",
+          "sha256": "5368717be75d2825bd35c385d015c6e2cb353dd058f01aa4b34bef52035d53db",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6hotfix4/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.11.6hotfix4/rom-linux.zip"
         },
@@ -117,7 +117,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 582046040,
-          "sha256": "92f9a0006c490e19829deed69796e4698677937edc8ea25f0125b5d4b601b1cc",
+          "sha256": "239eaaeadd80bc9472ff46e3ed9e46d5bf80b7a3c962efe8a0a15ff06f2dd68a",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6hotfix4/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.11.6hotfix4/rom-linux-arm64.zip"
         },
@@ -172,7 +172,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 700772189,
-          "sha256": "7f9e18dd05765315d16738c15d75ef589d17f25ac062c9e28051ddb67081c7ff",
+          "sha256": "4d836cb63234e3b37d3dc28565fc193c8d1c9f84849f375c7ccddeb2d5042bbc",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6hotfix4/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.11.6hotfix4/rom_type_b-linux.zip"
         },
@@ -183,7 +183,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 525678910,
-          "sha256": "da8f98784a2e4b432acc7283b22199deaf8f6d008792d0bba29dc420f16e6600",
+          "sha256": "13f97e0c82846835368bb61eec3a1a6732706a555231b893eae7af979554eb13",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6hotfix4/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.11.6hotfix4/rom_type_b-linux-arm64.zip"
         },
@@ -238,7 +238,7 @@
           "model": "Y2",
           "type": "Stock",
           "size": 681250671,
-          "sha256": "2a0c8b14a31afe5782811e65e1a8ba9bda925775d681a0bbcc27e12a7c766b37",
+          "sha256": "d93d073e878c01662823aa46303c80131d4395a08f390e05168d9bc833d123e3",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6hotfix4/rom_y2-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.11.6hotfix4/rom_y2-linux.zip"
         },
@@ -249,7 +249,7 @@
           "model": "Y2",
           "type": "Stock",
           "size": 506157392,
-          "sha256": "a66ce854dfe9e09d53825d580b2801bb8421ee033596bec53f2dc01bc063f418",
+          "sha256": "a59f401b3f6c91b475362291d89f20d725ca69ff1c0d5a5c4798abcb3bc9856f",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6hotfix4/rom_y2-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.11.6hotfix4/rom_y2-linux-arm64.zip"
         },
@@ -322,7 +322,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 757125053,
-          "sha256": "8667254e1a9f48a6330f90adc1f7d6e5cd2bf9aad67a8196bbf4b09af360e60b",
+          "sha256": "3c37066a4e5b2ac26a5ecd3be4d222336893e1e3577cd4911bf159c49a9739b7",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.11.6/rom-linux.zip"
         },
@@ -333,7 +333,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 582031774,
-          "sha256": "230a10550cb73f3bda7962abf79faba5fefa6d1bad9e9974e63e11d5281baad9",
+          "sha256": "5a7a4f83c6af612cf772d3b1cb280ae64b64e47e845f234e11916ac808019a96",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.11.6/rom-linux-arm64.zip"
         },
@@ -388,7 +388,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 700776698,
-          "sha256": "f29281e2ef71f9968cb82ce617a174830ee453d0477c4b11c9632689ffefdb85",
+          "sha256": "af323317ddc4004c0f615bf0f7d3e3673fe9ea4691b17d3d6e4f74cceec355c3",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.11.6/rom_type_b-linux.zip"
         },
@@ -399,7 +399,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 525683419,
-          "sha256": "8241b32b25ab40d6ad6943a882f260e760baaac01740f876ddb8f4f6e545cc54",
+          "sha256": "ade8754ac26da53ec11494076debdbfde3e0e673c7470c5d960597da2e538a52",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.11.6/rom_type_b-linux-arm64.zip"
         },
@@ -454,7 +454,7 @@
           "model": "Y2",
           "type": "Stock",
           "size": 681252822,
-          "sha256": "29740b460b164a131f4ff0cc4e1779ad86ff8c0cd0e5c9d65049d008c7c600fe",
+          "sha256": "0d31cfd305c969578c7585020fc822c18d93f02dbf247a0571830f1ce66027ca",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6/rom_y2-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.11.6/rom_y2-linux.zip"
         },
@@ -465,7 +465,7 @@
           "model": "Y2",
           "type": "Stock",
           "size": 506159543,
-          "sha256": "45a0bcea3bd053bb8265648aa790c1716c478d126114fcff70c99339f9e3fd57",
+          "sha256": "6b92ee105ffc39a70429adfc8b59252c4f2433acbc60b085991a838e2eae0e1e",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.6/rom_y2-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.11.6/rom_y2-linux-arm64.zip"
         },
@@ -538,7 +538,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 757128329,
-          "sha256": "a2eb04636dcd4f0037adb05e2285e089c48fbc7b4a935ab057abd0e88c072ab4",
+          "sha256": "88608ee23e272ae2635192b68243075687a20d6fca3bed516dca3671447fa32f",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.5/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.11.5/rom-linux.zip"
         },
@@ -549,7 +549,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 582035050,
-          "sha256": "0163ba8e82c17baa7cad18a0a3f7bc7064452d58ec47facbdfd34d91ea805062",
+          "sha256": "a28727dad1c1fbb87745fd473f0c1eb8f21e66faf9f1b43b37cd5ed2c1ceefe5",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.5/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.11.5/rom-linux-arm64.zip"
         },
@@ -604,7 +604,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 700777335,
-          "sha256": "f212334dacde1125eb48081c0e02463d76dba3a6f7cdc3ed617ef60dc3ceb7ba",
+          "sha256": "d22e29befcba3260896c5393cc5b061752e0e206eadc62d84d37bf743dfc98ca",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.5/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.11.5/rom_type_b-linux.zip"
         },
@@ -615,7 +615,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 525684056,
-          "sha256": "68fd5b8b42df59269248c273c9baf2bc53bb59f7557c2456cfad190c506c310e",
+          "sha256": "dba836cee352c26eb453fc66d9f5db7993fab7967ea5060275f5eb3511ce83bb",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.5/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.11.5/rom_type_b-linux-arm64.zip"
         },
@@ -670,7 +670,7 @@
           "model": "Y2",
           "type": "Stock",
           "size": 681239715,
-          "sha256": "552972d009adbf444661fbbca96ef4c74a10abc1a189c455cdb4d42f283a7810",
+          "sha256": "63714a3cf03437d13e58463d53bf79bbba4310d1488688e016b6a2e022c1e72e",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.5/rom_y2-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.11.5/rom_y2-linux.zip"
         },
@@ -681,7 +681,7 @@
           "model": "Y2",
           "type": "Stock",
           "size": 506146436,
-          "sha256": "889c195be56ad7afa197968cf43b8d33bef3a0a1bd943c468cf9917e31e34d45",
+          "sha256": "9ce212ae256270f297b0363889303c7a974fe32a4013c526629741f3b6d488fc",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.5/rom_y2-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.11.5/rom_y2-linux-arm64.zip"
         },
@@ -754,7 +754,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 758399766,
-          "sha256": "fa989c384e7d7480100e6767b140d791bc0132c61c06cba9807248ccb67346cf",
+          "sha256": "a1a67557cac117bb35374f22e350eb3eddf88c3839fa0f37c3869f00aa82b068",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.10.1/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.10.1/rom-linux.zip"
         },
@@ -765,7 +765,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 583306487,
-          "sha256": "927b3dbd77553af5ff7ecf752fa68a893931fb4950ab82b810004199735e7102",
+          "sha256": "04d30190002fcb4eaea380e79e2a22c8be6a8a87d999dda957699d83377672e9",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.10.1/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.10.1/rom-linux-arm64.zip"
         },
@@ -820,7 +820,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 700492576,
-          "sha256": "43fec3add2ddd89502719dc17f0719eb312624e35d9c96acbbfb68d2253fde59",
+          "sha256": "af1e1f57ba72bfbef912ddda3a859481a4604916ac032e312d2b559575ee3e2b",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.10.1/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.10.1/rom_type_b-linux.zip"
         },
@@ -831,7 +831,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 525399297,
-          "sha256": "11565f76a9f7664d1a1c1b1a12841634cbf3aaa2a820a6829ef82573f314de18",
+          "sha256": "ba4610bb593e9a286243f42a841d58e7aeff09d5423ddd96f34473c7c7de0936",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.10.1/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.10.1/rom_type_b-linux-arm64.zip"
         },
@@ -903,7 +903,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 757429018,
-          "sha256": "23704cd182e5e4e37b27e0416a45f28ae9908edecff15f2b7271067eb9e9eadd",
+          "sha256": "fb28877545988b75f37b93ff1d32221476ca47e9dd1522aa1f901ce56905a91a",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.6/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.6/rom-linux.zip"
         },
@@ -914,7 +914,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 582335739,
-          "sha256": "c22b347acd8e6113ac00bd2f4e1e1ea296ed757497fc8438e627d970576cd846",
+          "sha256": "39ce63dc884e78c1c4b0ec5f39f847036fdfb0434c149497a833ff6671a7d4f0",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.6/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.6/rom-linux-arm64.zip"
         },
@@ -969,7 +969,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 700678244,
-          "sha256": "2e58eee6bcc50ac74ba4f64436fde17776c5589495929aeb813b6e6520fc91b4",
+          "sha256": "477d83871225350fca206ea9d0c13bce4b4cab0c45f600e9c07a2d0312fa5159",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.6/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.6/rom_type_b-linux.zip"
         },
@@ -980,7 +980,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 525584965,
-          "sha256": "5a6421dc89351eec74225dd1cbdef21e0804801fa79f8526776c6bbbe1e49760",
+          "sha256": "95623f2ed31375a1c2039e99df53cd206a9aa2d8c0faf856cdc8ac278cb03246",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.6/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.6/rom_type_b-linux-arm64.zip"
         },
@@ -1052,7 +1052,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 757460272,
-          "sha256": "e85d516a3a9cd52d0be6c025a44c9cadff26c306ed2991d272e3c4fde9223a75",
+          "sha256": "0283ba8f52285f11bbce372bc9fe664fe8436390f2126fc7c3a4e7600f81e1ed",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.9/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.9/rom-linux.zip"
         },
@@ -1063,7 +1063,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 582366993,
-          "sha256": "e29db33b1cae56c06435e12db8f916774bc12b5c33155e08bc14638168682042",
+          "sha256": "a62e5e98603fe662a7ea59ba98130d77234f460f01574f162719ee567335f64d",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.9/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.9/rom-linux-arm64.zip"
         },
@@ -1118,7 +1118,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 700518948,
-          "sha256": "8b24e9581ef8e447fc880738f9a310e3825ea26720b34830a6c72e764da40fc4",
+          "sha256": "3170789ef8b67ef6fe0a619960321cbbd064f728fc051a0b6bb1137d4cfdc2c2",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.9/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.9/rom_type_b-linux.zip"
         },
@@ -1129,7 +1129,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 525425669,
-          "sha256": "58362fd695612f8c3c7547175d1b1da87d595a8a845b8868eda3483054c7608c",
+          "sha256": "2c1bce46733c487fb19e6fbf95d62d396ccf1d53da102968c8351913213e4c11",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.9/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.9/rom_type_b-linux-arm64.zip"
         },
@@ -1201,7 +1201,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 757428570,
-          "sha256": "3caed7cec61069a952bd8a05a2ae1d043f0b7a6923b6e336aa7cd91f7fdd2697",
+          "sha256": "57d2ad32cf95e10a552145efdd1f13de4446b20fd7dffe7e0770c73fb0502461",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.3/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.3/rom-linux.zip"
         },
@@ -1212,7 +1212,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 582335291,
-          "sha256": "91e1b5b8f6327b671e33a97331766c4d26bbf4a48837ae3b833b5ef9b2b54437",
+          "sha256": "e93f66ab3bdf391f40138a3868f4329812f2693ff67eb4c35898e675d0bd3a6b",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.3/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.3/rom-linux-arm64.zip"
         },
@@ -1267,7 +1267,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 700665383,
-          "sha256": "179138b04f7cd8ae02ce594e8a75d4d97dc638e38cb022c0cb9c7fc06bb3ed7d",
+          "sha256": "b426867a41ff78a9e04a5e2cba899fd101bc49f41fb774bd0b5893907d75ffed",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.3/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.3/rom_type_b-linux.zip"
         },
@@ -1278,7 +1278,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 525572104,
-          "sha256": "91c28a0451e92fa1911f55349099a33abd4f53080e20650d66aa81884693f911",
+          "sha256": "240d062693d416c42897ffa112798e52d84c13678060ee27b8577d94b5e46bc8",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.3/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.3/rom_type_b-linux-arm64.zip"
         },
@@ -1350,7 +1350,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 757461226,
-          "sha256": "2586f47b19f3092f88bcd50970605d669c7d8eb630b1460f9959bb006754c14e",
+          "sha256": "3f120682aae94b8c6c56cadc8d2539941dfcc7328d2bf399414500e06c996130",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.8/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.8/rom-linux.zip"
         },
@@ -1361,7 +1361,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 582367947,
-          "sha256": "fb713c3f8bb3ed327c1c3e7ec2ff937569afe514120af7f55e9195a286aa465a",
+          "sha256": "d736c321904fb38ff5b10726c42d7c8c6f24419c1b6a5da9373bcc59d92bcedf",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.8/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.8/rom-linux-arm64.zip"
         },
@@ -1416,7 +1416,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 700538658,
-          "sha256": "a66a90b74b600de9b6d5b5d9f16cf6660d2a63d3c990a2ef5dd41def41905947",
+          "sha256": "150af6a7d79c6f1d46ac852f405a2785844b25a7cf5559221a11d0e61dc722b9",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.8/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.8/rom_type_b-linux.zip"
         },
@@ -1427,7 +1427,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 525445379,
-          "sha256": "9b1eeaf0b9fe632784d240606a6154465ccda2247b3a7a55924701e724be901d",
+          "sha256": "7961b7523e6ed18295e1338e6a1bb1884df68dc9ce13fb9bb7582f7032fba2d2",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.8/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.8/rom_type_b-linux-arm64.zip"
         },
@@ -1499,7 +1499,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 757942408,
-          "sha256": "af5806756be70ab8c4e1496f7cf6e0864b1779d3f2a44fcf4c7f5fee16c9890c",
+          "sha256": "fda92997e67d9a8c9f65564ef35e2ce1e68852c3f54a4f3b226c522bb3f57293",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.11/rom-linux.zip"
         },
@@ -1510,7 +1510,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 582849129,
-          "sha256": "c9d1e827b69b99ac0cfd5a76d8ac7ba5943b34a5933849a49ec6c26c24a04be8",
+          "sha256": "08414cc5e8d68cc8495d25fb83056c7d4782a066b9c622e88ee01f03d58ca65c",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.11/rom-linux-arm64.zip"
         },
@@ -1565,7 +1565,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 705538163,
-          "sha256": "5a16db9453a603c60713906ce58ea2ea97f815c5d1d6fdc342aecd852acb05b4",
+          "sha256": "e0c96d903db5a26161a13223a21bb4d37cf3f2699e24aec030c7bd94683b040f",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.11/rom_type_b-linux.zip"
         },
@@ -1576,7 +1576,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 530444884,
-          "sha256": "c602325e414e7a139f39c66960984367d5ee973f1204e972dd7b463a00465dc8",
+          "sha256": "01b0842192e1cc1d106e3c3f83162ef6746cf19fa450a2a743949e5050a2ebc1",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.11/rom_type_b-linux-arm64.zip"
         },
@@ -1648,7 +1648,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 757457196,
-          "sha256": "77b75ecc56db01e29c82f7b31cf1ca55ba9ea7cc87f2ed681f5da03743777790",
+          "sha256": "813ea8d0f644f840d3fa93627f6456043f0650127d710bbafe7d4d56b2a05044",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.5/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.5/rom-linux.zip"
         },
@@ -1659,7 +1659,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 582363917,
-          "sha256": "9a9da96d3e7074d1835d4d701df07f4098b45aeb81e535616eec0b73d9c6cfea",
+          "sha256": "aadb3c8e8f504685ff39b1019a15845a32164d0fc06166a839e60176b569aeb3",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.5/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.5/rom-linux-arm64.zip"
         },
@@ -1714,7 +1714,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 700663993,
-          "sha256": "1599a4526c3b3222af2e97445ae7c58f8252ee1f178f2d264017787207a4b4ca",
+          "sha256": "642f6d11b8fbb8f7665a10d6d73fb1655c3a449eafc585ae475631d6af57f20c",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.5/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.5/rom_type_b-linux.zip"
         },
@@ -1725,7 +1725,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 525570714,
-          "sha256": "e0d1eb11c3e1b0ef08512b4f52b1d712d6031c4d4e1e5b8c8d607470755f0100",
+          "sha256": "ac89fbadbc2f021ccba1700b0971a43e4b88f8e94d6e20f66709fbf036e9b3b5",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.5/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.5/rom_type_b-linux-arm64.zip"
         },
@@ -1797,7 +1797,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 757144591,
-          "sha256": "b57a2dc1ce16a45e5079a21787d5293b995a397b773c8f4d937c5f08a41e14ef",
+          "sha256": "9c0a98b9c55708d1bf3327e986e2656808ee6d34b37a9cdec7ce99f910dc0b73",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.4/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.11.4/rom-linux.zip"
         },
@@ -1808,7 +1808,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 582051312,
-          "sha256": "0291ab8287bab1c96797253bcf903ac7f554eaad4551d2df4cd8ee34d194b6d2",
+          "sha256": "ea99196e2da11701a72e96fd764530d812ad81145e00888a005b152e9cefc54d",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.4/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.11.4/rom-linux-arm64.zip"
         },
@@ -1863,7 +1863,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 700787958,
-          "sha256": "36c65ed6aaf267ebddb81297982fe29deb00e544bef3d59db599edb5dc60e64f",
+          "sha256": "92f8afacbeb1e43a8a9f6accf80a29dd2b6f10c6244b62eafa6075fd137452ff",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.4/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.11.4/rom_type_b-linux.zip"
         },
@@ -1874,7 +1874,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 525694679,
-          "sha256": "43b61c2b6f2a9b20504b6174601d0ea0ae34aaa5e84b7dea93a28b9e8abfe74f",
+          "sha256": "3a42d18b0ffca1f33764ca64ca363eaa2f8f2993220aedbfe0a85af9edc8bd17",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.4/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.11.4/rom_type_b-linux-arm64.zip"
         },
@@ -1929,7 +1929,7 @@
           "model": "Y2",
           "type": "Stock",
           "size": 681108243,
-          "sha256": "e658381d70c01d49ddb11706960fd97dc10942e6bd1f6d2f34876f6dc89cb694",
+          "sha256": "71c83ddaec786deeafd40e39200055898eff52d43751f31ff68f678a3770e261",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.4/rom_y2-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.11.4/rom_y2-linux.zip"
         },
@@ -1940,7 +1940,7 @@
           "model": "Y2",
           "type": "Stock",
           "size": 506014964,
-          "sha256": "364d10e02b4e271e5120c801145ba707d108ce508f1d7bb8ff00b4f1c91e820d",
+          "sha256": "fafa30a542b7a210f5e798b2270567ee4a752c310b8595699a8c2fbff7f83ddd",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.4/rom_y2-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.11.4/rom_y2-linux-arm64.zip"
         },
@@ -2013,7 +2013,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 758399658,
-          "sha256": "afe375b2682663ffae49edff8868c3499e594b184563b3480057c90625a73163",
+          "sha256": "de132cd0c1e131d42be0b91165fcf5439b366df6fa60c4dd37b14a8bbc446743",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.10/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.10/rom-linux.zip"
         },
@@ -2024,7 +2024,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 583306379,
-          "sha256": "472985269306670bc0d54882861bb9e3f41e0d4af7d338944b0166c481f9901d",
+          "sha256": "ed0764f6711f0ef528b129df884cff5403856390596d8efbf1716e77c489c211",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.10/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.10/rom-linux-arm64.zip"
         },
@@ -2079,7 +2079,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 700497777,
-          "sha256": "68f728e03fad5be1eef63271a5d16c1f7a25354e092ff181e9d5732fd4c199b4",
+          "sha256": "2dddcc607b6fff8e3377b0c5c9b20c158cebeaa884542acdf9646f5bf00fee48",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.10/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.10/rom_type_b-linux.zip"
         },
@@ -2090,7 +2090,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 525404498,
-          "sha256": "b116e7fcc29f1f8334f787b2ba7ea1c276314f143316e067061d490780604803",
+          "sha256": "51af32eba76c6e0030b151669178fc53d032d4d534df67e736811f74b8343eb7",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.10/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.10/rom_type_b-linux-arm64.zip"
         },
@@ -2162,7 +2162,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 757458201,
-          "sha256": "0642d2dc940521353743dbb5e3d99316d196671d67cc2ba5a31148a38c9c5802",
+          "sha256": "8b028b8fe28e4f855864f8948de37b4613d3eaee9577de2887a50caab16aa9b2",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.1/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.1/rom-linux.zip"
         },
@@ -2173,7 +2173,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 582364922,
-          "sha256": "854c16df66e014978c453d360e74b6d2e617c10f6f7f8fa180019a253d700cd7",
+          "sha256": "87770734c678d24e6d1f159428d5c90148097ef56b4f767e9a39df09a379ea85",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.1/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.1/rom-linux-arm64.zip"
         },
@@ -2228,7 +2228,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 700643297,
-          "sha256": "a97bac0c138bbe7f0fc301abdb0dda088d5daf29588f27d80965e1d752831f8d",
+          "sha256": "01c9d65b4c150062f73b008a29e7bd297887ff0796cf786da444e8375bd1eb4d",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.1/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.1/rom_type_b-linux.zip"
         },
@@ -2239,7 +2239,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 525550018,
-          "sha256": "0bca04fbc1a613319ef7d42f63c045e621a9afe712e18787d8f07db66f84139f",
+          "sha256": "986e6c2d62b574d3ceb7a552a8bebd08a56c913cb190e0aa3ca50399b4ab348a",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.1/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.1/rom_type_b-linux-arm64.zip"
         },
@@ -2311,7 +2311,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 757930980,
-          "sha256": "9bb6a672ad13e685b34d03b5b039e80dfff20a6df0fbf6a7417100f077946dfc",
+          "sha256": "22fd9038c4db8b69209f79e556c9f7b2a09c6d21bfbdf785e514304de08d1916",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.1/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.11.1/rom-linux.zip"
         },
@@ -2322,7 +2322,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 582837701,
-          "sha256": "408e12b183cbb4e11fb056c52308dc010f2b351f687a6de69bb75a998ed6e5ab",
+          "sha256": "99f2c0272d40ad9b1846d6082cbe732377db54b718ddc093df911fe6b83b700b",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.1/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.11.1/rom-linux-arm64.zip"
         },
@@ -2377,7 +2377,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 705544784,
-          "sha256": "b17106781274d510d2ef49b8345a2f015831d35acb04579378cd3beab85c1f28",
+          "sha256": "d590295921df2d48011ed3441a55f9bdd77333e9016e382339e3a7e5b00c740c",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.1/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.11.1/rom_type_b-linux.zip"
         },
@@ -2388,7 +2388,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 530451505,
-          "sha256": "1495f21471a5840aa30dc9f990e61b02a5e986aa18a7b5af16783cd00ba2f301",
+          "sha256": "49bc3de3ab36fa1876ad75bbae5425a96f5e0403926e488bd7a857d806d9db13",
           "url": "https://github.com/y1-community/y1_launcher-mirror/releases/download/launcher-v0.11.1/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1_launcher-mirror/releases/download/launcher-v0.11.1/rom_type_b-linux-arm64.zip"
         },
